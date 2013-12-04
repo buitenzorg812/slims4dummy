@@ -1,0 +1,6792 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass extbook
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\language bahasa
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\family sans
+\size huge
+Panduan Penggunaan Aplikasi Software SENAYAN
+\end_layout
+
+\begin_layout Author
+Pusat Informasi dan Hubungan Masyarakat - Kemdikbud
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Mengenal Senayan Library Management System
+\end_layout
+
+\begin_layout Paragraph
+
+\family sans
+\series medium
+Senayan Library Management System (SLiMS) adalah perangkat lunak sistem
+ manajemen perpustakaan (library management system) dengan sumber terbuka
+ yang dilisensikan di bawah GPL v3.
+ Aplikasi ini pertama kali dikembangkan dan digunakan oleh Perpustakaan
+ Kementerian Pendidikan Nasional, Pusat Informasi dan Hubungan Masyarakat,
+ Kementerian Pendidikan Nasional.
+ Seiring perkembangan waktu, aplikasi ini kemudian dikembangkan oleh komunitas
+ pengguna dan penggiat SLiMS.
+ Aplikasi SLiMS dibangun dengan menggunakan PHP, basis data MySQL, dan pengontro
+l versi Git.
+ Pada tahun 2009, SLiMS mendapat penghargaan tingkat pertama dalam ajang
+ INAICTA 2009 untuk kategori open source.
+\end_layout
+
+\begin_layout Paragraph
+
+\family sans
+\series medium
+Ketika dirilis pertama kali, SLiMS baru diunduh 704 kali.
+ Angka ini melonjak menjadi 6.000 kali lebih pada Desember 2007 dan 11 ribu
+ lebih Januari 2008.
+ Adapun pada Oktober lalu program itu sudah diunduh hampir 27 ribu kali.
+ Dengan demikian, total sudah 250 ribu kali lebih program itu diunduh.
+ Saat ini SLiMS telah digunakan luas oleh berbagai perpustakaan, baik di
+ dalam maupun luar negeri.
+ Perangkat lunak SLiMS dapat diunduh di http://perpustakaan.kemdiknas.go.id/senayan
+ atau http://slims.web.id
+\end_layout
+
+\begin_layout Section
+
+\family sans
+\series medium
+Fitur SLiMS
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Online Public Access Catalog (OPAC) dengan pembuatan thumbnail yang di-
+ 
+\series default
+\shape italic
+generate on-thefly
+\series medium
+\shape default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Thumbnail berguna untuk menampilkan cover buku.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Mode penelusuran tersedia untuk yang sederhana (Simple Search) dan tingkat
+ lanjut (Advanced Search).
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Detail record juga tersedia format XML (Extensible Markup Language) untuk
+ kebutuhan web service.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Manajemen data bibliografi yang efisien meminimalisasi redundansi data.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Manajemen masterfile untuk data referensial seperti GMD (General Material
+ Designation), Tipe Koleksi, Penerbit, Pengarang, Lokasi, Supplier, dan
+ lain-lain.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Sirkulasi dengan fitur: Transaksi peminjaman, pengembalian, reservasi koleksi,
+ aturan peminjaman yang fleksibel, Informasi keterlambatan dan denda.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Manajemen keanggotaan.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Stock opname / stocktake.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Laporan dan Statistik.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Pengelolaan terbitan berkala (Kardex).
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Dukungan pengelolaan dokumen multimedia (.flv,.mp3) dan dokumen digital lainnya.
+ Khusus untuk pdf dalam bentuk streaming.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Senayan mendukung beragam format bahasa termasuk bahasa yang tidak menggunakan
+ penulisan selain latin.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Menyediakan berbagai bahasa pengantar (Indonesia, Inggris, Spanyol, Arab,
+ Jerman, Thailand).
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Dukungan Modul Union Catalog Service.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Counter Pengunjung perpustakaan.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Member Area untuk melihat koleksi yang sedang dipinjam oleh anggota.
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+Modul sistem dengan fitur: Konfigurasi sistem global, Manajemen modul, Manajemen
+ User (Staf Perpustakaan) dan grup, Pengaturan hari libur, Pembuatan barcode
+ otomatis, Utilitas untuk backup.
+\end_layout
+
+\begin_layout Itemize
+Copy cataloguing dengan protocol z39.50 dan p2p service.
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Pemberitahuan surat keterlambatan peminjaman melalui e-mail dengan menggunakan
+ mail server.
+\end_layout
+
+\begin_layout Section
+
+\family sans
+\series medium
+Sejarah Perkembangan SLiMS
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+13 Maret 2008 Portable Senayan 3.0 (based on senayan3 stable1) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+21 Maret 2008 Portable Senayan 3.1 (based on senayan3 stable2) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+24 Maret 2008 Portable Senayan 3.2 (based on senayan3 stable3) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+1 Juni 2008 Portable Senayan 3.3 (based on senayan3 stable4) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+18 Agustus 2008 Portable Senayan 3.4 (based on senayan3 stable5) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+21 September 2008 Portable Senayan 3.5 (based on senayan3 stable6) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+13 Januari 2009 Portable Senayan 3.6 (based on senayan3 stable7) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+14 Maret 2009 Portable Senayan 3.7 (based on senayan3 stable8) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+7 April 2009 Portable Senayan 3.8 (based on senayan3 stable9) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+22 Juli 2009 Portable Senayan 3.9 (based on senayan3 stable10-Patch1) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+17 Oktober 2009 Portable Senayan 3.10 (based on senayan3 stable11) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+24 November 2009 Portable Senayan 3.11 (based on senayan3 stable12) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+24 Maret 2010 Portable Senayan 3.12 (based on senayan3 stable13-patch2) 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+24 Maret 2010 Portable Senayan 3.13 (based on senayan3 stable14/Seulanga)
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family sans
+\series medium
+2011 – sekarang Portable Senayan 3.14 (based on senayan3 stable15/Matoa)
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Instalasi SLiMS
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Untuk dapat menggunakan aplikasi ini, kita perlu melakukan instalasi aplikasi
+ ini pada komputer dengan persyaratan Hardware minimum:
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Pentium III class processor 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+256 MB of RAM 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Standard VGA with 16-Bit color support
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Hardware tambahan : Handheld Barcode Scanner, Printer Laserjet
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Sedangkan untuk aplikasinya dapat diunduh pada halaman http://perpustakaan.kemdik
+nas.go.id/ atau http://slims.web.id/
+\end_layout
+
+\begin_layout Section
+
+\series medium
+\lang english
+Instalasi SLiMS pada sistem operasi Windows 
+\end_layout
+
+\begin_layout Enumerate
+\align left
+
+\series medium
+\lang english
+Unduh aplikasi SLiMS melalui internet di alamat http://perpustakaan.kemdiknas.go.id
+/senayan kemudian carilah file psenayan3-13.zip atau psenayan3-14.zip.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Jika telah selesai diunduh, kemudian letakkan file psenayan3.13.zip atau psenayan3.
+14.zip tersebut ke dalam direktori root C:/ atau D:/ (ingat, jangan diletakkan
+ file tersebut di dalam folder yang terdapat pada direktori tersebut) 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Kemudian pastikan komputer anda telah terinstal aplikasi kompresi file seperti
+ Winrar, Winzip, atau 7zip.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Lakukan extraksi file psenayan3.13.zip atau psenayan3.14.zip tersebut dengan
+ memilih opsi 
+\shape italic
+extract here
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Tunggulah beberapa saat hingga proses extraksi file selesai dan hasilnya
+ adalah sebuah folder bernama psenayan
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Buku folder psenayan, kemudian jalankan apache_start dan mysql_start dengan
+ cara melakukan double click
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Buka aplikasi perambah (web browser), disarankan menggunakan Mozilla Firefox
+ versi 3 ke atas 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Tuliskan alamat url http://localhost atau http://127.0.0.1 kemudian enter
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Apabila berhasil, maka akan muncul tampilah halaman OPAC
+\end_layout
+
+\begin_layout Section
+
+\family sans
+Instalasi SLiMS di Linux (Ubuntu Desktop 10.04)
+\end_layout
+
+\begin_layout Standard
+Bagi anda pengguna linux dengan distro Ubuntu, berikut ini adalah langkah-langka
+h instalasinya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Download source aplikasi SLiMS (senayan3-stable14.tar.gz atau senayan3-stable15.tar.
+gz) dari internet
+\end_layout
+
+\begin_layout Enumerate
+\align left
+
+\lang english
+Letakkan source tersebut ke dalam direktori /var/www/ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian lakukan extraksi melalui terminal dengan perintah sudo tar -xvzf
+ slims3-stable15.tar.gz 
+\end_layout
+
+\begin_layout Enumerate
+\align left
+
+\lang english
+Pastikan komputer anda telah terinstal php5, php5-gd, php5-mysql, apache,
+ dan mysql, dan phpmyadmin.
+ Apabila belum terinstal maka lakukanlah instalasi paket-paket tersebut
+ dari repositori.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buatlah nama database yang kita inginkan menggunakan phpmyadmin atau melalui
+ perintah mysql pada console terminal.
+ (misalnya pada contoh kali ini, kita membuat nama database 
+\begin_inset Quotes eld
+\end_inset
+
+senayandb
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lakukan instalasi senayan.sql dengan perintah mysql -u root -p senayandb
+ < /var/www/slims3-stable14/install/senayan.sql atau lakukan import meggunakan
+ phpmyadmin, kemudian carilah file senayan.sql yang terletak di dalam /var/www/sl
+ims3-stable14/install/
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buatlah hak akses user untuk mengakses ke database yang sudah kita buat
+ tersebut menggunakan perintah mysql di console atau melalui phpmyadmin
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Sesuaikan nama database, username, dan password database melalui file konfiguras
+i yang terdapat di dalam aplikasi SLiMS.
+ file konfigurasi tersebut bernama sysconfig.local.inc.php
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian ubahlah hak akses folder files, images, dan repository agar folder
+ tersebut dapat menyimpat file image, dan file digital lainnya.
+ Cara mengubahnya dengan cara mengetikkan perintah pada terminal, shel>
+ sudo chmod -R 777 files/ images/ repository/
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Agar aplikasi SLiMS dapat menjalankan layanan Z39.50, maka kita perlu melakukan
+ instalasi php-yaz dan library-librarynya.
+ caranya adalah sebagai berikut 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buka internet dengan URL http://ftp.indexdata.dk/pub/yaz/ubuntu
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian sesuaikan versi ubuntu yang kita gunakan, dalam contoh ini saya
+ menggunakan ubuntu 10,04, klik 10.04
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian cari dan download ketiga file ini, yaitu: libyaz4-dev_4.0.7-1indexdata_i3
+86.deb, libyaz4-dev_4.0.10-1indexdata_i386.deb, dan yaz_4.0.7-1indexdata_i386.deb
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selanjutnya jalankan perintah ini dengan cara membuka terminal shell> sudo
+ apt-get install libyaz3-dev php-pear php5-dev
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Setelah paket-paket tersebut terinstall, instal-lah ketiga paket yaz untuk
+ ubuntu 10.04 yang telah kita unduh sebelumnya.
+ instalasinya bisa kita klik ganda satu persatu, atau apabila ketiga paket
+ tersebut kita simpan dalam satu folder, masuk ke dalam folder tempat paket-pake
+t tersebut disimpan, lalu jalankan perintah: shell> sudo dpkg -i *.* (semoga
+ tidak ada pesan kesalahan yang terjadi)
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Langkah selanjutnya, jalankan perintah ini: shell> sudo pecl install yaz.
+ Perintah ini, berdasarkan pantauan dari konsole, akan mengunduh file yaz-1.0.14.tg
+z lalu secara otomatis melakukan kompilasi.
+ apabila ada pertanyaan, "path to YAZ installation? [autodetect] :", langsung
+ tekan enter.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pada akhir instalasi, kita diminta untuk menambahkan ekstension yaz.so pada
+ php.ini.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lakukan sunting / edit file php.ini menggunakan editor teks favorit.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lokasi file php.ini kalo di mesin yang saya gunakan adalah /etc/php5/apache2/php.i
+ni, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tambahkan "extension=yaz.so" (tanpa tanda petik) pada baris yang mengindikasikan
+ dynamic extension.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Simpan, dan restart service apache yang sedang berjalan.
+ lalu, layanan z3950 pada senayan yang anda install bisa digunakan.
+ 
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Persiapan Sebelum Menggunakan SLiMS
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Kebanyakan para pengelola sebuah perpustakaan masih bingung menggunakan
+ aplikasi SLiMS dikarenakan ketidaktahuan atau kekurangan informasi mengenai
+ cara kerja aplikasi ini.
+ Beberapa pengelola perpustakaan bahkan kebingungan mengoperasikan aplikasi
+ ini untuk manajemen perpustakaan yang mereka kelola, padahal aplikasi ini
+ sudah terpasang pada komputer mereka.
+ kemudian pertanyaannya adalah apa yang harus dilakukan oleh para pengelola
+ perpustakaan ketika aplikasi ini terlah terpasang sesuai dengan langkah-langkah
+ yang telah jelaskan pada bab sebelumnya.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Oke, kami akan menjelaskan hal-hal yang perlu disiapkan sebelum memulai
+ menggunakan aplikasi ini untuk manajemen perpustakaan yang akan dikelola.
+ Berikut adalah hal-hal yang perlu disiapkan dan didefinisikan sebelum menggunak
+an aplikasi SLiMS:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Jenis tipe koleksi yang ada di perpustakaan.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Jenis/tipe keanggotaan yang ada di perpustakaan.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Aturan peminjaman yang ada di perpustakaan.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kelompok dan pengguna aplikasi.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Oke kita bahas satu per satu keempat hal tersebut
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Mendefinisikan Tipe Koleksi
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Setiap perpustakaan memiliki tipe koleksi yang berbeda dengan perpustakaan
+ lain, tipe koleksi yang dimaksud disini adalah pengelompokkan koleksi berdasark
+an kategori.
+ misalnya di perpustakaan perguruan tinggi ada koleksi laporan kerja, skripsi,
+ thesis, desertasi, karya ilmiah, referensi, textbook, majalah, jurnal ilmiah,
+ audio visual, dan sebagainya.
+ di perpustakaan sekolah misalnya buku paket, buku teks, buku referensi
+ dan sebagainya, perpustakaan umum, buku anak, buku remaja, buku dewasa,
+ audio visual, referensi, dan sebagainya.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Setelah kita dapat menentukan jenis tipe koleksi pada perpustakaan kita,
+ maka langkah selanjutnya adalah mendefinisikan tipe koleksi tersebut pada
+ aplikasi SLiMS dengan cara sebagai berikut.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buka aplikasi SLiMS yang sudah kita pasang di komputer kita, kemudian pilih
+ 
+\series bold
+Login pustakawan / Librarian Login
+\series default
+.
+ isi username 
+\series bold
+admin
+\series default
+ dan password 
+\series bold
+admin
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Cari dan kemudian klik pada menu 
+\series bold
+Master File
+\series default
+ yang terdapat di atas header
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian lihat dan perhatikan pada bagian kiri terdapat beberapa sub menu.
+ Cari dan klik tulisan 
+\series bold
+Collection Type/ Tipe Koleksi
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu pada bagian bawah header terdapat tulisan 
+\series bold
+Add New Collection Type
+\series default
+, klik tulisan tersebut, kemudian definisikan jenis koleksi yang kita miliki
+ pada kolom tersebut.
+ misalnya Skripsi.
+ Kemudian klik tombol 
+\series bold
+Save
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke 4 di atas untuk mendefinisikan tipe koleksi lain yang
+ terdapat di perpustakaan kita.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Selanjutnya buatlah Item Status koleksi, untuk memberikan keterangan terhadap
+ koleksi misalnya sedang dalam perbaikan, tidak dapat dipinjam, tersedia,
+ rusak, dan seterusnya.
+ Caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik ada menu 
+\series bold
+Master File
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik 
+\series bold
+Item Status
+\series default
+ pada sub menu yang terdapat disebelah kiri
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isilah 
+\series bold
+Item Status Code 
+\series default
+berupa inisial misalnya RS untuk (Rusak), SDP (Sedang diperbaiki), HL (Hilang),
+ TDP (Tidak dapat dipinjam)
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isilah 
+\series bold
+Item Status Name
+\series default
+ dengan keterangannya, misalnya Rusak, Sedang diperbaiki, Hilang, dan seterusnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Contrenglah 
+\series bold
+No Loan Transaction
+\series default
+ pada 
+\series bold
+Rules
+\series default
+ untuk status koleksi yang tidak dapat dipinjam
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik 
+\series bold
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah 3 s.d 6 untuk membuat item status koleksi yang lain
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Mendefinisikan Tipe Keanggotaan
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Perpustakaan dengan berbagai macam jenisnya tentu memiliki kekhasan kelompok
+ anggotanya.
+ Jika kita berkunjung ke perpustakaan perguruan tinggi, maka dapat kita
+ temukan bahwa kelompok anggota perpustakaan yang terdapat di perpustakaan
+ perguruan tinggi adalah mahasiswa/mahasiswi, dosen, dan staf.
+ Jika kita berkunjung ke perpustakaan umum akan ada pengelompokkan misalnya
+ pelajar/mahasiswa, pns, karyawan, wiraswasta, dan sebagainya.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pengelompokkan berbagai macam tipe keanggotaan disebuah perpustakaan biasanya
+ digunakan untuk mengatur hak dalam peminjaman.
+ Biasanya antara satu tipe anggota dengan tipe anggota lain berbeda dalam
+ hal aturan peminjaman sebuah koleksi yang ada di perpustakaan.
+ misalnya dosen boleh meminjam 4 buku selama 3 minggu; sedangkan mahasiswa
+ boleh miminjam 2 buku selama 2 minggu dan seterusnya.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Setelah kita telah memiliki gambaran tersebut diatas, lalu muncul pertanyaan
+ bagaimana mengatur hal tersebut pada aplikasi SLiMS? Berikut ini adalah
+ langkah-langkah pengaturan tipe keanggotaan pada SLiMS
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik tulisan menu 
+\series bold
+Membership/Keanggotaan
+\series default
+ yang terdapat pada header atas.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian lihat dan perhatikan pada bagian kiri terdapat beberapa sub menu.
+ Cari dan klik tulisan 
+\series bold
+Member Type/ Tipe Anggota
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu pada bagian bawah header terdapat tulisan 
+\series bold
+Add New Member Type
+\series default
+, klik tulisan tersebut, kemudian isilah kolom-kolom tersebut.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isilah nama tipe keanggotaan yang terdapat di perpustakaan kita pada kolom
+ 
+\series bold
+Member Type Name, 
+\series default
+misalnya Dosen.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tentukan jumlah maksimal koleksi yang dapat dipinjam pada kolom 
+\series bold
+Loan Limit, 
+\series default
+misalnya seorang dosen dapat meminjam koleksi perpustakaan maksimal 4 buku,
+ maka isi angka 4
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian Isilah masa waktu peminjaman koleksi dengan hitungan hari pada
+ kolom 
+\series bold
+Loan Periode (in days), 
+\series default
+misalnya masa peminjaman koleksi dosen adalah 3 minggu, maka kita ubah menjadi
+ hari menjadi 21 hari, lalu isilah angka 21 pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Reserve
+\series default
+, adalah layanan yang dapat dimanfaatkan oleh anggota untuk memesan koleksi
+ yang sedang dipinjam oleh anggota lain.
+ Misalnya buku Manajemen Keuangan sedang dipinjam oleh Budi, dan belum dikembali
+kan ke perpustakaan.
+ Lalu pada saat itu ada anggota bernama Reny ingin meminjam koleksi yang
+ sedang dipinjam oleh Budi.
+ Maka dengan layanan pemesanan, Reny dapat memesan koleksi tersebut ketika
+ Budi telah menggembalikan koleksi tersebut ke perpustakaan.
+ Apabila di perpustakaan kita ingin menerapkan layanan tersebut, maka pilihlah
+ 
+\series bold
+enable
+\series default
+ pada pengisian ini.
+ Namun jika di perpustakaan kita tidak terdapat layanan tersebut, maka kita
+ dapat memilih 
+\series bold
+disable
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila pada langkah ke 7 kita memilih 
+\series bold
+enable
+\series default
+, maka kita harus mendefinisikan berapa jumlah maksimal koleksi yang dapat
+ dipesan oleh anggota pada kolom 
+\series bold
+Reserve Limit
+\series default
+.
+ misalnya 2 buku.
+ maka kita isi dengan angka 2.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selanjutnya adalah kolom pengisian 
+\series bold
+Membership Periode (In Days)
+\series default
+.
+ Membership Periode adalah masa atau waktu berlakunya keanggotaan.
+ di beberapa perpustakaan memiliki aturan berbeda-beda, ada yang menerapkan
+ masa berlaku keanggotaan 3 bulan, 6 bulan, dan 1 tahun.
+ Pada contoh kali ini saya akan menerapkan masa keanggotaan di perpustakaan
+ tempat saya bekerja adalah 1 tahun, maka pengisian adalah 365 hari.
+ Jadi kita isi dengan angka 365
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kolom selanjutnya adalah kolom 
+\series bold
+Reborrow Limit
+\series default
+.
+
+\series bold
+ 
+\series default
+Kolom ini diisi apabila di perpustakaan kita terdapat layanan perpanjangan
+ masa peminjam koleksi yang telah jatuh tempo.
+ Cara pengisiannya adalah nilai frekwensinya misalnya perpanjangan koleksi
+ hanya dapat dilakukan 1 kali dan harus dikembalikan setelah diperpanjan,
+ maka kita isi angka 1.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian pengisian 
+\series bold
+Fine each day 
+\series default
+atau dalam bahasa Indonesia 
+\series bold
+denda perhari
+\series default
+.
+ pada kolom ini kita mengisi nilai denda perhari misalnya 500 atau 1000
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Overdue Grace Periode
+\series default
+ atau masa grasi adalah toleransi keterlambatan.
+ Misalkan di sebuah perpustakaan menerapkan aturan masa peminjaman adalah
+ 7 hari, dengan toleransi keterlambatan 2 hari, maka apabila anggota telat
+ mengembalikan buku pada hari ketujuh, masih ada waktu 2 hari sebagai waktu
+ toleransi.
+ Namun, apabila masa toleransi selama 2 hari tersebut anggota belum juga
+ mengembalikan, yang bersangkutan baru akan diberikan sanksi berupa denda
+ setelah melewati batas masa toleransi pengembalian.
+ Pengisiannya adalah dalam hari.
+ Misalnya 1 hari maka kita isi 1 atau 2 hari maka kita isi 2
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Setelah terisi, kemudian kita Save dengan mengklik tombol Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke-2 hingga 13 untuk mingisi tipe anggota yang lain
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Catatan penting
+\series default
+: apabila dalam pengisian kolom-kolom tersebut ada yang tidak kita isi,
+ maka isilah dengan angka 0 
+\series bold
+(jangan dikosongkan)
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Mendefinisikan Aturan Peminjaman
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\lang english
+Pada penjelasan sub bab di atas, kita pada dasarnya telah menentukan aturan
+ aturan peminjaman di perpustakaan kita.
+ Namun aturan-aturan tersebut masih bersifat umum dalam arti tidak ada aturan
+ yang spesifik.
+ Sebagai contoh di tempat saya bekerja terdapat berbagai macam tipe anggota,
+ di mana setiap anggota memiliki aturan peminjan yang berbeda dari sisi
+ jenis koleksi dan juga hari termasuk denda.
+ Lihat tabel di bawah ini:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features islongtable="true">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="bottom" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="20text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Tipe Anggota
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Tipe Koleksi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Max Pinjam
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lama Peminjaman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Denda/hari
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Basic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Buku
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1 item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+21 hari
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1.000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Audio Visual
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1 item/set
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+7 hari
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1.500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Regular
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Buku
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2 item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+21 hari
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1.000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Audio Visual
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1 item/set
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+7 hari
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1.500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Premium
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Buku
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+3 item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+21 hari
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1.000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Audio Visual
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2 item/set
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+7 hari
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1.500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Untuk mendefinisikan aturan tersebut pada SLiMS, caranya adalah sebagai
+ berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Masuk ke Menu 
+\series bold
+Circulation
+\series default
+ / 
+\series bold
+Sirkulasi
+\series default
+,
+\series bold
+ 
+\series default
+kemudian klik sub menu 
+\series bold
+Loan Rules/Aturan Peminjaman 
+\series default
+yang terdapat pada sebelah kiri.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik pada 
+\series bold
+Add New Loan Rules/Tambah Aturan Peminjaman Baru
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selanjutnya ada 8 kolom isian yang harus kita isi, pertama kita pilih tipe
+ anggota Basic pada 
+\series bold
+Member Type
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian pilih tipe koleksi Buku pada 
+\series bold
+Collection Type
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+GMD
+\series default
+ kita pilih All saja
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Loan Limit
+\series default
+ kita isi dengan angka 1
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Loan Periode
+\series default
+ kita isi 21
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Fine Each Day
+\series default
+ kita isi 1000
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Overdue Grace
+\series default
+ Period kita kosongkan
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah 2 sampai 3 , kemudian pilih tipe koleksi Audio Visual pada
+ 
+\series bold
+Collection Type
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+GMD
+\series default
+ kita pilih All saja
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Loan Limit
+\series default
+ kita isi 1 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Loan Period
+\series default
+ kita isi 7
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Fine Each Day
+\series default
+ kita isi 1500
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Overdue Grace Period
+\series default
+ kita kosongkan
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Dan seterusnya
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Catatan penting
+\series default
+: apabila dalam pengisian kolom-kolom tersebut ada yang tidak kita isi,
+ maka isilah dengan angka 0 
+\series bold
+(jangan dikosongkan)
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Membagi Kelompok dan Pengguna Aplikasi
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS dapat digunakan multiuser, sehingga untuk menghindari saling
+ menyalahkan ketika bekerja dengan aplikasi ini, maka administrator aplikasi
+ dapat membuat group dan username yang berbeda antara satu orang dengan
+ orang lain yang bekerja di perpustakaan.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pembagian kelompok yang di maksud di dalam aplikasi ini adalah kelompok
+ kerja yang sesuai dengan job desk masing-masing staf.
+ Sebagai contoh seperti ini.
+ di bagian perpustakaan membagi 2 kelompok, yaitu kelompok pengolahan koleksi
+ dan kelompok sirkulasi.
+ di dalam kelompok pengolahan koleksi ada 2 orang bernama Adi dan Ani, sedangkan
+ di kelompok sirkulasi ada 2 orang bernama Andi dan Yeni.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Untuk mendefinisikan hal tersebut pada aplikasi SLiMS, maka kita harus membuat
+ Kelompok terlebih dahulu.
+ caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+System
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Sub Menu 
+\series bold
+User Group 
+\series default
+yang ada disebelah kiri
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik 
+\series bold
+Add New Group
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian isi Group Name misalnya 
+\series bold
+Pengolahan Koleksi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian tentukan Priviledge sesuai dengan job desk kelompok ini dalam menggunak
+an aplikasi SLiMS
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Contreng read and write pada 
+\series bold
+Bibliography, Master File, Stock Take, Reporting, dan Serial Control
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Contreng read pada 
+\series bold
+Circulation, Membership
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kita ulangi langkah ke 3, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian isi Group Name misalnya 
+\series bold
+Sirkulasi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Contreng read and write pada 
+\series bold
+Circulation, Membership, Reporting, Stock Take,
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Contreng read pada 
+\series bold
+Bibliography, Master File, dan Serial Control
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Setelah mendefinisikan kelompok, maka selanjutnya adalah membuat username
+ dan password setiap orang sesuai dengan kelompoknya.
+ Pada contoh di atas, ada 4 orang yang harus kita buatkan username dan password
+ untuk digunakan mereka dalam bekerja menggunakan aplikasi SLiMS.
+ caranya adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+System
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Sub Menu 
+\series bold
+Systems User 
+\series default
+yang terdapat pada sebelah kiri
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik 
+\series bold
+Add New User
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isi 
+\series bold
+Login Username
+\series default
+ misalnya adi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isi 
+\series bold
+Real Name
+\series default
+ dengan nama lengkap misalnya Adi Subroto
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tentukan 
+\series bold
+Group
+\series default
+ dengan cara mencontreng kotak kecil pada nama kelompoknya, misalnya si
+ adi kelompok Pengolahan Koleksi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isi 
+\series bold
+Password 
+\series default
+misalnya 12345
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian isi kembali password 12345 pada kolom 
+\series bold
+Confirm New Password
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+kemudian Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke 3 sampai ke 9 sesuai dengan contoh tabel di atas.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Apabila telah selesai mendefinisikan tipe koleksi, tipe keanggotan, aturan
+ peminjaman, kelompok user, dan user pada SLiMS, maka secara umum aplikasi
+ ini sudah dapat digunakan untuk mengatur manajemen operasional perpustakaan
+ mulai dari pengolahan koleksi, layanan peminjaman dan pengembalian, stockopname
+, hingga membuat laporan statistik perpustakaan.
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Megolah Koleksi di Perpustakaan
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Setiap perpustakaan tentunya mempunyai visi yang berbeda, namun dapat dipastikan
+ bahwa perpustakaan itu dikatakan berhasil bila banyak digunakan oleh usernya.
+ Salah satu aspek penting untuk membuat perpustakaan itu banyak digunakan
+ adalah ketersediaan koleksi yang memenuhi kebutuhan penggunanya.
+ Oleh karena itu tugas utama setiap perpustakaan adalah membangun koleksi
+ yang kuat demi kepentingan pengguna perpustakaan.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Mengolah koleksi adalah kegiatan rutin yang di lakukan oleh pengelola perpustaka
+an.
+ Kegiatan ini dalam istilah ilmu perpustakaan adalah kegiatan katalogisasi
+ dan klasifikasi.
+ Kegiatan katalogisasi adalah proses pembuatan sarana penelusuran informasi
+ pada koleksi yang dimiliki perpustakaan.
+ Sarana penelusuran informasi di perpusakaan bisa berupa katalog tercetak
+ baik berupa buku atau kartu maupun katalog digital menggunakan media komputer.
+ Tujuan kegiatan katalogisasi adalah memungkin seseorang mememukan sebuah
+ buku yang diketahui berdasarkan pengarang, judul, subyek, dan lokasi koleksi
+ tersebut berada.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS dapat dimanfaatkan oleh staf perpustakaan yang ditugaskan
+ untuk mengolah koleksi perpustakaan.
+ Namun sebelum memulai kegiatan mengolah koleksi perpustakaan menggunakan
+ SLiMS, staf perpustakaan harus perlu memahami bahwa terdapat dua (2) jenis
+ pekerjaan dalam melakukan kegiatan pengolahan koleksi menggunakan SLiMS,
+ yaitu:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Katalogisasi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Inventarisasi
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Katalogisasi
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Kegiatan katalogisasi pada SLiMS adalah kegaitan entry data koleksi berdasarkan
+ standar Anglo-American Cataloguing Rules (AACR), dimana koleksi dideskripsikan
+ berdasarkan judul, pengarang, edisi, penerbit, tahun terbit, dan sebagainya.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Implementasinya di dalam aplikasi SLiMS adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Loginlah dengan username dan password yang telah anda dapatkan dari administrato
+r / gunakan login standar aplikasi SLiMS.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+Bibliography.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik sub menu 
+\series bold
+Add New Bibliography.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu isilah kolom-kolom sebagai berikut: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Title, 
+\series default
+isilah judul koleksi pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Edition, 
+\series default
+apabila pada koleksi yang akan kita olah terdapat informasi mengenai edisi,
+ maka isilah informasi edisi pada kolom ini, misalnya edisi ke-2, dan sebagainya
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Specific Detail Info, 
+\series default
+Kolom ini menurut AACR, digunakan untuk koleksi non-printed material.
+ Kosongkan jika tidak dipergunakan
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Author
+\series default
+, Untuk mengisi nama pengarang caranya adalah mengklik tulisan 
+\series bold
+Add Author(s)
+\series default
+, kemudian akan muncul form baru, lalu isilah nama pengarang tersebut, kemudian
+ pilihlah tipe pengarang tersebut, apakah dia sebagai personal name, organizatio
+nal body, atau conference.
+ Kemudian pilihlah kedudukan si pengarang tersebut, apakah dia sebagai pengarang
+ utama, pengarang tambahan, penerjemah, editor, dan sebagainya.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+GMD, 
+\series default
+singkatan dari General Material Designation, adalah jenis bahan umum suatu
+ dokumen.
+ GMD digunakan untuk membedakan jenis dokumen buku (printed) dengan dokumen
+ lainnya (non-printed).
+ di dalam standar AACR terdapat daftar GMD yaitu, art original music (for
+ printed music), art reproduction, newspaper, braille picture, cartographic
+ material, poster, chart, realia, diorama, slide, electronic resource, technical
+ drawing, filmstrip, MP3 (for recorded music), flash card, CD (for recorded
+ music), game, cassette (for recorded music), globe, book on cassette, graphic
+ novel, book on CD, kit, book on MP3, large print, DAISY sound recording,
+ magazine, toy, manuscript, transparency, microform, VHS, microscope, slide,
+ DVD, model, Blu-ray, text, dan motion picture.
+ Untuk koleksi berupa buku pilihlah GMD text
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Frequency, 
+\series default
+adalah frekwensi terbit, kolom ini diisi apabila kita mengolah koleksi terbitan
+ berkala, abaikan jika tidak diperlukan
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+ISBN/ISSN, 
+\series default
+Adalah nomor ISBN atau nomor ISSN dari koleksi kita.
+ dalam pengisian ISBN atau ISSN, penulis merekomendasikan untuk mengisinya
+ tanpa karakter tambahan seperti tanda (-) dan sebagainya.
+ Jadi cukup mengisi dengan angka saja, hal ini saya sarankan agar ketika
+ kita ingin melakukan pertukaran data (misalnya copy cataloguing), data
+ kita dapat dicopy oleh perpustakaan lain
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Classification, 
+\series default
+Kolom ini diisi dengan nomor klasifikasi yang kita gunakan di perpustakaan
+ kita, apakah itu DDC ataupun UDC, atau dengan sistem klasifikasi lain
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Publisher, 
+\series default
+Adalah kolom penerbit, jika sebelumnya kita telah memasukkan nama penerbit
+ gramedia misalnya, maka kita cukup mencarinya pada kolom bagian sebelah
+ kanan.
+ namun apabila ternyata hasilnya NO DATA FOUND, maka kita ketikkan saya
+ nama penerbit tersebut pada kolom pencarian.
+ Nanti setelah kita melakukan penyimpanan, maka nama pernebit tersebut akan
+ secara otomatis masuk ke dalam daftar penerbit yang ada di SLiMS
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Publishing Year, 
+\series default
+tahun terbit, isilah tahun dokumen/koleksi tersebut diterbitkan.
+ Misalnya 2011, 2012, dan seterusnya
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Publisher Place, 
+\series default
+Adalah kolom tempat/kota terbit, jika sebelumnya kita telah memasukkan tempat/ko
+ta terbit Jakarta, Bandung, atau Surabaya misalnya, maka kita cukup mencarinya
+ pada kolom bagian sebelah kanan.
+ Namun apabila ternyata hasilnya NO DATA FOUND, maka kita ketikkan saya
+ tempat/kota tersebut pada kolom pencarian.
+ Nanti setelah kita melakukan penyimpanan, maka tempat terbit/ kota terbit
+ tersebut akan secara otomatis masuk ke dalam daftar penerbit yang ada di
+ SLiMS
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Collation, 
+\series default
+Kolasi adalah keterangan deskripsi fisik suatu dokumen, seperti jumlah halaman
+ romawi, arab, tinggi buku, dan sebagainya
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Series Title, 
+\series default
+Judul seri.
+ terkadang kita menemukan koleksi yang terdapat judul serinya, misalanya
+ seri pengetahuan alam, seri anak sholeh dan seterusnya.
+ Apabila kita menemukan koleksi yang terdapat keterangan judul serinya,
+ maka isilah judul seri tersebut pada kolom ini.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Call Number, 
+\series default
+atau dalam bahasa Indonesianya adalah Nomor Panggil digunakan untuk memanggil
+ / mencari keberadaan suatu koleksi di perpustakaan.
+ Biasanya koleksi perpustakaan yang disusun di rak berdasarkan subyeknya
+ akan memberi Call Number pada setiap koleksi dengan menempelkan Nomor Klasifika
+si, Tiga Huruf nama pengarang, dan 1 huruf judul pada Punggung Koleksi.
+ Misalnya 340 RAS u.
+ Nomor inilah yang kita isikan pada kolom 
+\series bold
+Call Number
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Subject(s)
+\series default
+, Setiap perpustakaan menggunakan tajuk subyek yang berbeda dengan perpustakaan
+ lain tergantung jenis perpustakaannya.
+ Untuk mengisi subyek caranya adalah mengklik tulisan 
+\series bold
+Add Subject(s)
+\series default
+, kemudian akan muncul form baru, lalu isilah subyek tersebut, kemudian
+ pilihlah tipe subyek tersebut, apakah dia sebagai topic, geografic, name,
+ temporal.
+ genre, atau occupation.
+ Kemudian pilihlah kedudukan subyek tersebut, apakah dia sebagai subyek
+ utama, atau subyek tambahan.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Language, 
+\series default
+pilihkan bahasa dan sesuaikan dengan bahasa dokumen yang kita olah
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Abstract/Notes, 
+\series default
+Abstrak/Catatan biasanya digunakan untuk menambahkan informasi yang berkaitan
+ dengan koleksi tersebut, tujuannya agar pengunjung perpustakaan dapat mengetahu
+i secara umum gambaran koleksi tersebut.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Image, 
+\series default
+Apabila kita ingin mempercantik tampikan katalog kita dengan gambar cover
+ buku, atau cover dokumen lainnya.
+ maka kita dapat memasukkan file gambar cover tersebut pada kolom ini.
+ caranya adalah klik pada tombol browse, kemudian carilah file gambar tersebut
+ yang telah kita simpan sebelumnya pada komputer kita.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+File Attachment
+\series default
+, Kolom File Attachment digunakan apabila kita memiliki file-file digital
+ seperti pdf, mp3, mp4, flv, dan sebagainya, kemudian kita ingin pengguna
+ perpustakaan dapat mendownload/melihat file digital tersebut pada katalog
+ kita.
+ Untuk memasukkan file tersebut caranya adalah Klik Add Attachment, kemudian
+ isilah Judul file digital tersebut pada kolom title, kemudian biarkan saja
+ 
+\series bold
+Repo Directory
+\series default
+ pada pilihan Repository Root, kemudian tekan tombol browse, lalu carilah
+ file digital yang akan kita masukkan.
+ Kemudian pilih 
+\series bold
+Upload Now.
+ 
+\series default
+Apabila kita ingin melakukan pembatan hak akses terhadap file digital tersebut,
+ misalnya hanya anggota premium yang dapat melihat file tersebut, maka pilihkan
+ Access Private, lalu contreng pada tipe keanggotaan Premium.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Hide in OPAC, 
+\series default
+Pada kolom Hide in OPAC terdapat dua pilihan yaitu, 
+\series bold
+Show
+\series default
+ dan 
+\series bold
+Hide
+\series default
+.
+ Apabila kita memilih 
+\series bold
+Show
+\series default
+, maka ketika selesai dilakukan entry data, maka pengunjung/anggota perpustakaan
+ akan dapat langsung melihat data koleksi tersebut pada OPAC.
+ Namun apabula kita meilih 
+\series bold
+Hide
+\series default
+, maka pengunjung/anggota perpustakaan tidak dapat melihat koleksi tersebut
+ pada halaman OPAC.
+ Fungsi dari Hide in OPAC ini bagi staf bagian pengolahan koleksi sangatlah
+ menguntungkan, dimana ketika proses katalogisasi belum selesai, atau koleksi
+ belum siap untuk dilayankan, staf perpustakaan yang sedang mengolah koleksi
+ dapat memilih opsi Hide, agar pengunjung/anggota perpustakaan tidak dapat
+ menemukan koleksi tersebut, dikarenakan koleksi tersebut sedang dalam proses
+ pengolahan
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Promote to Homepage, 
+\series default
+Ada kalanya perpustakaan ingin menampilkan koleksi barunya pada katalognya.
+ Aplikasi SLiMS memungkinkan bagian pengolahan untuk menempatkan daftar
+ koleksi terbarunya pada halaman pertama pada OPAC.
+ Apabila kita memilih Don't Promote, maka koleksi yang kita sudah kita entry
+ tidak akan tampil pada page pertama OPAC.
+ namun apabila kita memilih Promote, maka hasil koleksi
+\series bold
+ 
+\series default
+yang sudah kita entry akan muncul pada halaman pertama OPAC
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Label, 
+\series default
+adalah icon untuk untuk kita tampilkan pada halaman OPAC.
+ Icon pada label bisa kita ganti sesuai dengan kebutuhan kita.
+ label digunakan untuk memberi tanda / keterangan pada koleksi yang kita
+ inginkan.
+ Misalnya koleksi ini adalah koleksi favorit, maka kita dapat memberi tanda
+ label icon favorit pada koleksi tersebut dengan cara mencontreng pada kolom
+ label.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Setelah semua kolom terisi, maka langkah selanjutnya adalah melakukan penyimpan
+ dengan cara mengkil tombol 
+\series bold
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kegiatan Katalogisasi selesai
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Inventarisasi
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Setelah kita melakukan pekerjaan katalogisasi sebagaimana yang dijelaskan
+ pada sub bab sebelumnya, maka pekerjaan kedua yang harus dilakukan adalah
+ pengisian nomor induk/nomor barcode, sumber koleksi, nomer inventaris koleksi,
+ harga dan sebagainya.
+ Pekerjaan ini untuk lebih mudahnya kita sebut dengan inventarisasi.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS membedakan antara data Bibliografi dengan data nomor induk/Nomor
+ Barcode, hal tersebut dilakukan agar tidak terjadi duplikasi data pada
+ data Bibliografi.
+ Dalam praktiknya, jika ada dua buku yang judul, edisi, pengarang, isbn,
+ penerbit, dan tahun terbitnya sama, maka staf bagian pengolahan tidak perlu
+ melakukan kegiatan katalogisasi dua kali (tidak perlu melakukan dua kali
+ entry data), cukup satu kali data bibliografi tersebut di input.
+ yang membedakan dari kedua buku tersebut adalah nomor id/nomor barcode/nomor
+ induknya saja.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pengisian item data pada bibliografi 
+\series default
+harus 
+\series medium
+dilakukan, jika tidak diisi, maka data koleksi pada bibliografi dianggap
+ tidak ada oleh SLiMS, artinya data Bibliografi tersebut ada, namun secara
+ satuan/eksemplar, koleksinya belum dianggap ada.
+ Oleh karena itu, setelah melakukan pengisian data bibliografi, kita harus
+ mengisi item data.
+ Cara pengisiannya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik 
+\series bold
+Edit 
+\series default
+pada daftar bibliografi yang copiesnya none
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik 
+\series bold
+edit 
+\series default
+lagi pada sisi bagian kanan
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Perhatikan pada kolom nomor 4 (di bawah kolom 
+\series bold
+Specific Detail Info
+\series default
+) terdapat tulisan 
+\series bold
+Item(s) data
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada 
+\series bold
+Add New Items, 
+\series default
+kemudian akan muncul beberapa kolom yang harus kita isi, yaitu:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Item Code, 
+\series default
+pada kolom ini kita mengisi nomor induk/nomor apapun yang sifatnya unik
+ (tidak boleh sama dengan nomor yang lain), artinya jika nomor tersebut
+ sudah pernah kita isi, maka nomor tersebut tidak dapat digunakan lagi.
+ Pengisian item code dapat berupa numeric atau alfanumerik, B00001 atau
+ 00001.
+ Penulis menyarankan agar dalam pengisian item code tidak memasukkan karakter
+ aneh seperti #Q(#*$(*$@()*$.
+ Selain itu penulis juga menyarankan agar dalam pengisian item code hendaknya
+ dibuat digit yang seragam, misalnya 6 atau 7 digit B00001 dan tidak memasukkan
+ karakter spasi misalnya B 0001.
+ Hal tersebut dilakukan untuk memudahkan kita melakukan pencarian kembali
+ koleksi berdasarkan item code / nomor barcode.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Call Number, 
+\series default
+Kolom ini akan terisi secara otomatis apabila kita telah mengis kolom 
+\series bold
+Call Number
+\series default
+ pada Bibliografi
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Invetory Code, 
+\series default
+Biasanya di beberapa perpustakaan memberikan nomor inventaris untuk setiap
+ koleksi, apabila diperlukan aplikasi SLiMS menyediakan kolom isian pencatatan
+ kode Inventaris.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Location, 
+\series default
+Lokasi dimana suatu koleksi disimpan.
+ Kadang kala, ada perpustakaan yang membagi letak georafis perpustakaannya.
+ Misalnya di perpustakaan perguruan tinggi kita mengenal perpustakaan fakultas,
+ perpustakaan jurusan, atau perpustakaan universitas yang secara geografis
+ letaknya berjauhan.
+ Kita dapat mendefinisikan lokasi perpustakaan ini pada 
+\series bold
+Master file
+\series default
+, lalu pilih 
+\series bold
+Location
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Shelf Location, 
+\series default
+lokasi rak penyimpanan koleksi.
+ Ada kalanya kita informasi keberadaan suatu koleksi berdasarkan lokasi
+ rak, misalnya rak 100, rak 200 dan seterusnya.
+ Apabila diperlukan, kita dapat mengisi kolom ini sesuai dengan letak lokasi
+ rak di perpustakaan kita.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Collection Type, 
+\series default
+Sebagaimana sudah kita pahami sebelumnya, tipe koleksi wajib kita definisikan,
+ dikarenakan tipe koleksi ini akan berhubungan langsung dengan tata aturan
+ peminjaman yang kita buat sebelumnya.
+ Tentukan tipe koleksi dengan cara mengklik tombol bottom down (tanda panah
+ ke bawah)
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Item Status, 
+\series default
+Status item adalah kondisi koleksi setiap item/eksemplar.
+ Secara default, item status akan terset available (koleksi tersebut tersedia).
+ Jika koleksi yang kita olah merupakan koleksi referensi, maka, ubahlah
+ item status-nya No loan, yang berarti tidak dapat dipinjam.
+ Status yang lain dapat kita gunakan untuk memberikan keterangan pada setiap
+ item/eksemplar, misalnya hilang, rusak, sedang diperbaiki dan seterusnya.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Order Number, 
+\series default
+Nomor pemesanan pembelian.
+ Biasanya untuk kebutuhan inventarisasi dan audit, perpustakaan mencantumkan
+ informasi beruapa nomor pemesanan pembelian koleksi.
+ apabila diperlukan isilah informasi tersebut pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Order Date, 
+\series default
+Tanggal pemesanan pembelian Barang/Koleksi.
+ isilah tanggal koleksi tersebut dipesan pada kolom ini apabila diperlukan
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Recieving Date, 
+\series default
+tanggal penerimaan barang/koleksi.
+ Biasanya ada interval waktu antara pemesanan dengan penerimaan barang/koleksi.
+ Isilah tanggal penerimaan barang/koleksi tersebut pada kolom ini apabila
+ diperlukan 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Supplier, 
+\series default
+Supplier adalah informasi mengenai agen/pihak ketiga dimana kita melakukan
+ pembelikan koleksi.
+ Isilah nama supplier tersebut jika dibutuhkan.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Source, 
+\series default
+Sumber koleksi tersebut diperoleh, apabila koleksi tersebut berasal dari
+ pembelian maka pilih buy, apabila didapat dari hibah maka pilihlah prize/grant
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Invoice, 
+\series default
+Invoice adalah keterangan nomor invoice pembelian, apabila diperlukan isilah
+ nomor invoice pembelian koleksi
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Invoice Date, 
+\series default
+tanggal invoice adalah tanggal yang tertera pada invoice pembelian koleksi,
+ isilah tanggal invoice tersebut pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Price, 
+\series default
+harga masukkanlah nilai nominal pembelian tersebut lalu pilih simbol mata
+ uang yang terdapat pada kolom disebelahnya dengan cara mengklik tombol
+ panah ke bawah
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian apabila telah selesai, tekan tombol 
+\series bold
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik tombol 
+\series bold
+Update
+\series default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Cara Cepat Mengolah Koleksi Menggunakan Layanan Z39.50 dan P2P
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Layanan Z39.50
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Dahulu kita berpikir pekerjaan pustakawan yang bertugas di bagian pengolahan
+ koleksi sangat membosankan.
+ Mengolah koleksi bisa dilakukan dengan waktu yang sangat lama sekali, sehingga
+ koleksi tersebut akan sangat lama untuk dilayankan kepada anggota.
+ Namun dengan adanya internet pengolahan koleksi akan semakin cepat.
+ Salah satu metode yang digunakan adalah meng-copy katalog perpustakaan
+ lain dengan menggunakan layanan z39.50.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Layanan z39.50 adalah protokol pertukaran data yang banyak dikenal adalah
+ Z39.50 merupakan protokol yang bersifat interaktif.
+ Z39.50 merupakan protokol standar berbasis client-server yang memungkinkan
+ komputer komputer client untuk mencari dan mendapatkan informasi ke server
+ data.
+ Untuk lebih tahu lebih detail mengenai protokol z39.50 silahkan cek di website
+ dengan alamat http://irspy.indexdata.com/
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Untuk dapat menggunakan layanan z39.50 sangatlah mudah, persyaratannya adalah
+ komputer dimana SLiMS diinstal dapat mengakses internet.
+ Persyaratan kedua port 7090 tidak ditutup oleh administrator.
+ Jika persyaratan tersebut sudah terpenuhi, maka kita dapat memanfaatkan
+ fasilitas ini.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Berikut adalah tahapan untuk dapat menggunakan layanan Z39.50:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Secara default, SLiMS mengarahkan layanan Z39.50 ke Perpustakaan Library
+ of Congress, USA
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kita dapat mengubah atau menambahkan arah / target tersebut ke perpustakaan
+ lain di seluruh dunia yang menyediakan layanan Z39.50.
+ Untuk melihat daftar penyedia layanan Z39.50 silahkan cek 
+\series medium
+http://irspy.indexdata.com/
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Sebagai contoh saya akan menambahkan Perpustakaan Nasional Australia sebagai
+ target.
+ Pada website 
+\series medium
+http://irspy.indexdata.com/
+\series default
+, Perpustakaan Nasional Australia menyediakan layanan Z39.50 dengan alamat
+ host : 
+\series bold
+catalogue.nla.gov.au
+\series default
+, port: 
+\series bold
+7090
+\series default
+, dan nama database: 
+\series bold
+voyager
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buka file sysconfig.inc.php yang terdapat di dalam source senayan dengan editor
+ favorit anda
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Cari tulisan $sysconf['z3950_source'][1] = array ('uri => 'z3950.loc.gov:7090/voya
+ger', 'name' => Library of Congress Voyager');
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Block tulisan tersebut, lakukan copy dan paste pada baris di bawahnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian lakukan perubahan pada angka [1] menjadi [2] sesuai dengan urutannya.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian ubah tulisan ('uri => 'z3950.loc.gov:7090/voyager', 'name' => Library
+ of Congress Voyager') menjadi ('uri => 'catalogue.nla.gov.au:7090/voyager',
+ dan 'Library of Congress Voyager'); menjadi 'National Library of Australia');
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Hasil lengkapnya adalah $sysconf['z3950_source'][2] = array ('uri => 'catalogue.n
+la.gov.au:7090/voyager', 'name' => National Library of Australia');
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke 3 sampai ke 7 apabila kita ingin menambahkan target penyedia
+ layanan Z39.50 dari perpustakaan lain.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian save hasil perubahan tersebut.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada tombol 
+\series bold
+Z39.50 Service
+\series default
+ yang terdapat pada bagian kiri 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Masukkan nomor ISBN/ Judul/ Judul Seri pada kolom kosong, kemudian sesuaikan
+ opsi tersebut dengan cara mengklik tanda panah ke bawah.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Arahkan target pencarian ke perpustakaan yang kita inginkan kemudian klik
+ tombol search.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Biarkan proses tersebut berjalan, hingga menampilkan daftar judul koleksi
+ yang sesuai dengan koleksi yang kita olah.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu contreng pada kotak kecil yang ada disebelah kiri judul
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+kemudian tekan tombol 
+\series bold
+Save Z39.50 Records to Database
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Jika berhasil akan muncul dialog box dengan pesan 
+\series bold
+1 record inserted to database
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Ok, dan untuk melihat hasilnya, klik 
+\series bold
+Bibligrafic list
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Judul akan masuk ke dalam judul, pengarang juga akan masuk ke dalam kolom
+ pengarang dan seterusnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Langkah selanjutnya adalah melakukan editing terdapat data tersebut, dikarena
+ tidak semua data yang kita copy tersebut sudah benar dan sesuai.
+ Maka tugas kita adalah melakukan editing terhadap data yang baru kita copy
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila selesai diedit, jangan lupa juga memasukkan item data sebagimana
+ dijelaskan pada sub bab sebelumnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Layanan P2P
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Layanan P2P (Peer to Peer) pada prinsipnya sama dengan layanan z39.50 yaitu
+ berfungsi untuk meng-copy katalog dari perpustakaan lain.
+ Yang membedakan antara P2P dengan z39.50 adalah sumber katalog yang akan
+ kita copy adalah sesama pengguna aplikasi SLiMS yang katalognya sudah di
+ onlinekan di internet.
+ Jadi ringkasnya layanan P2P adalah layanan dimana kita dapat mengcopy informasi
+ katalog dari perpustakaan lain yang menggunakan SLiMS.
+ Layanan P2P menggunakan XML untuk pertukaran datanya.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Cara kerjanya hampir sama dengan layanan z39.50, yaitu komputer di SLiMS
+ diinstall harus terkoneksi dengan internet.
+ Selain itu kita kita harus mengetahui alamat URL perpustakaan pengguna
+ SLiMS yang katalognya sudah online.
+ Adapun untuk menggunakan layanan P2P adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Pastikan kita mengetahui alamat URL katalog online perpustakaan yang telah
+ menggunakan SLiMS
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Kita dapat mengubah atau menambahkan arah / target tersebut ke perpustakaan
+ lain di seluruh dunia yang menggunakan SLiMS.
+ 
+\series medium
+Sebagai contoh saya akan memasukkan alamat URL Katalog Online Perpustakaan
+ Kemdiknas yang beralamat di http://perpustakaan.kemdiknas.go.id/libsenayan.
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Buka file sysconfig.inc.php yang terdapat di dalam source senayan dengan editor
+ favorit anda
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Cari tulisan $sysconf['p2pserver'][1] = array ('uri => 'http://127.0.0.1/s3st15_mat
+oa', 'name' => 'SLiMS Library');
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Block tulisan tersebut, lakukan copy dan paste pada baris di bawahnya
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Kemudian lakukan perubahan pada angka [1] menjadi [2] sesuai dengan urutannya.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Kemudian ubah tulisan ('uri => 'http://127.0.0.1/s3st15_matoa', 'name' => 'SLiMS
+ Library') menjadi 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+('uri => 'http://perpustakaan.kemdiknas.go.id/libsenayan', dan 'SLiMS Library');
+ menjadi 'Perpustakaan Kemdiknas'); 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Hasil lengkapnya adalah:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+$sysconf['p2pserver'][2] = array ('uri => 'http://perpustakaan.kemdiknas.go.id/libs
+enayan', 'name' => 'Perpustakaan Kemdiknas'); 
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Simpan hasil perubahan tersebut dengan (Save)
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Klik sub menu P2P Service
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Masukkan nomor ISBN, atau judul
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Kemudian sesuaikan opsi pilihan dengan pencarian
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Arahkan ke perpustakaan mana kita akan mengambil data katalog
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Lalu tekan tombol Search
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Biarkan prosesnya hingga muncul daftar koleksi yang sesuai dengan koleksi
+ yang sedang kita olah
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+kemudian tekan tombol 
+\series bold
+Save P2P Records to Database
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Maka jika berhasil akan muncul dialog box dengan pesan 
+\series bold
+1 record inserted to database
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Pilik Ok, dan lihatlah hasilnya dengan cara mengklik 
+\series bold
+Bibligrafic list
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Judul akan masuk ke dalam judul, pengarang juga akan masuk ke dalam kolom
+ pengarang dan seterusnya
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Langkah selanjutnya adalah melakukan editing terdapat data tersebut, dikarena
+ tidak semua data yang kita copy benar dan sesuai.
+ Maka tugas kita adalah melakukan editing terhadap data yang baru kita copy
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Apabila selesai diedit, jangan lupa juga memasukkan item data sebagimana
+ dijelaskan pada sub bab sebelumnya
+\end_layout
+
+\begin_layout Enumerate
+\align block
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Mencetak Label dan Barcode
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Tugas bagian pengolahan koleksi selain melakukan entry data, katalogisasi,
+ klasifikasi dan juga mencatat jumlah eksemplar setiap koleksi adalah membuat
+ label untuk ditempel pada punggung koleksi serta membuat barcode agar dapat
+ digunakan untuk kegiatan transaksi peminjaman dan pengembalikan koleksi.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pekerjaan tambahan ini dapat dilakukan oleh staf perpustakaan yang bertugas
+ di bagian pengolahan dengan memanfaatkan fasilitas pembuat label dan barcode
+ yang terdapat pada SLiMS.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Mencetak Label
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Mencetal label kini dapat dilakukan tanpa harus mengetik atau menggunakan
+ aplikasi lain.
+ SLiMS menyediakan fasilitas pembuatan label yang kelak akan ditempel pada
+ bagian punggung koleksi.
+ Cara menggunakannya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pastikan kolom isian 
+\series bold
+Call Number
+\series default
+ yang terdapat pada Bibliografi dan Item Data telah terisi sebagaimana penjelasa
+n pada bab sebelumnya.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada 
+\series bold
+Label Printing 
+\series default
+yang terdapat pada sub menu bagian kiri
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian pilih data yang akan kita buat labelnya dengan cara 
+\series bold
+mencontreng 
+\series default
+kotak kecil disebelah judul
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian tekan tombol 
+\series bold
+Add To Print Queue
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian akan muncul dialog box, pilih ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian akan muncul lagi dialog box pilih ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu tekan tombol 
+\series bold
+Print Labels for Selected Data
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu akan muncul dialog box seperti kita akan mencetak (print), pilih lokasi
+ printer, dan tekan Ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Mencetak Barcode
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Nomor Barcode adalah identitas koleksi yang akan digunakan untuk melakukan
+ transaksi.
+ Oleh karena itu barcode perlu dicetak agar kita dapat membedakan antara
+ satu item/eksemplar dengan eksemplar lain.
+ Cara mencetak barcode prinsipnya adalah sama dengan cara mencetak label.
+ Adapun caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pastikan item code yang terdapat pada item data telah diisi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada 
+\series bold
+Item Barcode Printing
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian pilih data yang akan kita buat labelnya dengan cara 
+\series bold
+mencontreng 
+\series default
+kotak kecil disebelah judul
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian tekan tombol 
+\series bold
+Add To Print Queue
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian akan muncul dialog box, pilih ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian akan muncul lagi dialog box pilih ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu tekan tombol 
+\series bold
+Print Barcodes for Selected Data 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu akan muncul dialog box seperti kita akan mencetak (print), pilih lokasi
+ printer, dan tekan Ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Keanggotaan dan Sirkulasi
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Agar koleksi yang sudah diolah dapat dipinjam oleh anggota perpustakaan.
+ Maka hal yang perlu kita lakukan adalah mendata setiap anggota ke dalam
+ aplikasi SLiMS.
+ Pendataan anggota dapat berjalan dengan baik apabila kita telah mendefinisikan
+ tipe anggota dan aturan peminjam.
+ Untungnya, pada bab sebelumnya saya telah menerangkan bagaimana mengatur
+ itu semua.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Keanggotaan
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Mengolah Data Keanggotaan
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Mengolah data anggota tentunya harus berdasarkan data atau formulir yang
+ telah diisi oleh anggota yang bersangkutan.
+ Adapun cara mengolah data anggota adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+Membership
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik pada 
+\series bold
+Add New Member
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isilah kolom-kolom berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Member ID, 
+\series default
+atau yang disebut dengan nomor anggota perpustakaan.
+ Isilah nomor anggota pada kolom ini.
+ Dalam pengisian nomor anggota, saya menyarankan untuk tidak menggunakan
+ karakter !@#$%^&*()_?// dan sebagainya.
+ Gunakanlah angka atau campuran huruf dengan angka tanpa spasi.
+ Contohnya D00000001 atau 00001234 dan seterusnya.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Member Name, 
+\series default
+isilah nama lengkap anggota pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Birth Date, 
+\series default
+tanggal lahir anggota.
+ Untuk mengisi tanggal lahir anggota caranya adalah klik pada icon / gambar
+ kalender.
+ Kemudian pilih bulan lahir terlebih dahulu, lalu pilih tahun kelahirannya.
+ Apabila tidak terdapat tahun kelahirannya, maka klik-lah pada tanda 
+\begin_inset Quotes eld
+\end_inset
+
+>>
+\begin_inset Quotes erd
+\end_inset
+
+ sebanyak mungkin, hingga tahun lahir yang sebelumnya tidak ada, menjadi
+ ada.
+ Kemudian baru kita pilih tanggal lahirnya.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Member Since, 
+\series default
+tanggal pertama kali sesorang menjadi anggota di perpustakaan, secara default
+ tanggal tersebut mengikuti setting tanggal pada komputer kita.
+ Tanggal Member Since tidak akan berubah meskipun anggota tersebut melakukan
+ perpanjangan anggota.
+ Dengan adanya Tanggal Member Since, kita dapat mengetahui anggota tersebut
+ apakah anggota baru atau anggota lama
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Register Date 
+\series default
+tanggal sesorang terdaftar menjadi anggota perpustakaan.
+ Tanggal ini secara default akan mengikuti setting tanggal pada komputer
+ kita.
+ Yang membedakan antara Member since dengan Register Date adalah, tanggal
+ pada register date akan berubah apabila si anggota melakukan perpanjangan
+ kartu anggotanya.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Exipry Date 
+\series default
+Masa Berakhir keanggotaan.
+ Expiry date akan berfungsi secara otomatis apabila kita telah mendefinisikannya
+ terlebih dahulu, masih ingat pada bab sebelumnya kita telah mengatur masa
+ berkahir keanggotaan adalah 1 tahun atau 365 hari? Maka apabila kita menbiarkan
+ tanda contreng pada kotak kecil yang bertuliskan 
+\series bold
+Auto Set
+\series default
+, maka aplikasi akan mengitung secara otomatis masa berakhir keanggotaan
+ dimulai sehak ia mendaftar (register date) hingga 1 tahun atau 365 hari.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Institution, 
+\series default
+isilah keterangan lembaga/institusi/fakultas/kantor/sekolah dan sebagainya
+ dimana anggota tersebut berasal
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Membership Type, 
+\series default
+Tipe Keanggotaan.
+ Kolom ini wajib diisi agar aturan peminjaman yang pada bab sebelumnya telah
+ kita atur dapat berjalan.
+ Sebagaimana penjelasan pada bab sebelumnya, kita telah mendefinisikan tipe-tipe
+ keanggotaan di perpustakaan kita.
+ Apabila telah kita definisikan, maka kita dapat memilih tipe anggota dengan
+ cara meng-klik tanda panah ke bawah.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Gender, 
+\series default
+Jenis kelamin Female: perempuan, dan male adalah Pria
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Address, Alamat anggota.
+ Isilah alamat lengkap anggota pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Postal Code, kode pos, tuliskan kode pos di kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Mail Address, 
+\series default
+Alamat pengiriman pos.
+ Biasanya ada beberapa anggota yang berdomisili di X misalnya, tetapi ia
+ menginginkan apabila ada kiriman dari perpustakaan, ia ingin kiriman tersebut
+ dikirim ke alamat lain.
+ Maka tulislah alamat pengiriman pos disini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Phone Number, 
+\series default
+isi nomor telepon disini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Personal ID Number, 
+\series default
+Nomor identitas seperti KTP,SIM, dan Paspor
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Notes, 
+\series default
+Catatan apabila beberapa informasi di atas masih dirasakan kurang, kita
+ dapat menambahkan informasi lain pada kolom catatan.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Pending Membership, 
+\series default
+Tunda Keanggotaan.
+ Fungsi dari fasilitas ini adalah agar si anggota yang bersangkutan tidak
+ dapat melakukan transaksi peminjaman dikarenakan suatu hal, misalnya belum
+ mengembalikan buku, belum membayar denda, menghilangkan koleksi tapi belum
+ menggantinya.
+ dengan mencontreng kotak kecil yang ada tulisan Yes, maka si anggota tersebut
+ tidak dapat melakukan peminjaman koleksi.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Photo, 
+\series default
+Aplikasi SLiMS memungkinkan kita memasukkan foto digital anggota.
+ Caranya adalah foto anggota menggunakan kamera digital atau device lainnya,
+ kemudian simpan foto tersebut pada PC kita, lalu klik browse, kemudian
+ carilah letak file foto tersebut.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+E-mail, isilah alamat email anggota pada kolom ini
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+New Password, 
+\series default
+Password digunakan oleh anggota untuk memanfaatkan fasilitas Member Area
+ yang terdapat pada halaman OPAC.
+ Member Area adalah fasilitas dimana anggota dapat melihat daftar koleksi
+ yang sedang ia pinjam, atau melihat history koleksi apa saja yang pernah
+ ia pinjam selama menjadi anggota
+\series bold
+.
+ 
+\series default
+Untuk memanfaatkan fasilitas ini, staf bagian sirkulasi dapat memberikan
+ password kepada anggota, password ini dapat diganti oleh anggota yang bersangku
+tan apabila ia telah login dengan menggunakan password yang telah diberikan
+ staf sirkulasi.
+ Misalnya, staf sirkulasi menuliskan password 12345, maka ketika ingin menggunak
+an fasilitas Member Area, anggota tersebut akan memasukkan nomor anggotanya
+ serta password 12345
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Confirm New Password, 
+\series default
+Konfirmasi Ulang Password.
+ apabila kita menuliskan password 12345 pada kolom New Password di atas,
+ maka kita tulis kembali 12345 pada kolom Confirm New Password.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila semua kolom sudah diisi, maka untuk menyimpannya klik tombol 
+\series bold
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah 2 sampai 24 untuk mengisi data anggota lain.
+ Selesai.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Mencetak Kartu Anggota
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Selesai mengisi data anggota, kita dapat mencetak kartu anggota perpustakaan
+ menggunakan fasilitas pencetakan kartu anggota yang terdapat pada aplikasi
+ SLiMS.
+ Caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada 
+\series bold
+Member Card Printing
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian pilih data anggota yang akan kita buat kartu anggotanya denga cara
+ mencontreng kotak kecil yang ada disebelah kiri
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik tombol 
+\series bold
+Add to Print Queue
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lalu akan muncul dialog box Add to print queue? pilih Ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian akan muncul kembali dialog box Selected items added to print queue,
+ pilih Ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik pada tulisan 
+\series bold
+Print Member Cards for Selected Data
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kartu Anggota akan muncul diikuti dengan dialog box untuk melakukan pencetakan
+ (print), 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Arahkan nama printer tempat kartu anggota akan dicetak, dan pilih Ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Sirkulasi
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Di dalam istilah perpustakaan, sirkulasi adalah kegiatan peminjaman dan
+ pengembalian koleksi.
+ Aplikasi SLiMS menyediakan fasilitas peminjaman, pengembalian dan bahkan
+ reservasi koleksi yang sedang dipinjam oleh anggota lain.
+ Berikut ini adalah langkah-langkah untuk melakukan kegiatan peminjaman
+ dan pengembalian koleksi.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Peminjaman
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Mintalah kartu anggota kepada anggota yang akan meminjam koleksi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+Circulation 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Scan barcode nomor anggota menggunakan scanner barcode reader atau ketik
+ menggunakan keyboardApabila kita menggunakan keyboard, maka klik pada tombol
+ 
+\series bold
+Start transaction.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila valid, maka akan muncul keterangan si anggota tersebut seperti nama
+ anggota, nomor anggota, email, register date, dan expiry date
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tekan tombol 
+\series bold
+Loans
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian masukkan nomor barcode buku yang telah kita buat pada bab sebelumnya
+ pada kolom 
+\series bold
+Insert Item Code/Barcode
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik tombol 
+\series bold
+Loan
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah 6 dan 7 apabila ada buku/koleksi lain yang akan dipinjam
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila valid, maka terdapat keterangan identitas koleksi seperti nomor
+ barcode buku dan judul buku.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pada sisi sebelah kanan terdapat keterangan Loan Date (tanggal pinjam) dan
+ Due date (tanggal harus kembali).
+ Due Date akan terset otomatis sesuai dengan definisi yang telah kita buat
+ pada aturan peminjaman pada bab sebelumnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila telah selesai, maka JANGAN LUPA untuk mengklik tombol 
+\series bold
+Finisih Transaction 
+\series default
+sebagi bentuk validasi terhadap transaksi peminjaman
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Pengembalian
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Ada dua metode Pengembalian pada SLiMS.
+ Metode pertama adalah metode konvensional dan kedua adalah metode quick
+ return
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\lang english
+Metode Konvensional
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Mintalah kartu anggota kepada anggota yang akan mengembalikan koleksi.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+Circulation 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Scan barcode nomor anggota menggunakan scanner barcode reader atau ketik
+ menggunakan keyboardApabila kita menggunakan keyboard, maka klik pada tombol
+ 
+\series bold
+Start transaction.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila valid, maka akan muncul keterangan si anggota tersebut seperti nama
+ anggota, nomor anggota, email, register date, dan expiry date.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik icon lingkaran yang ada tanda panah ke bawah (icon return)
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+lalu akan muncul dialog box 
+\series bold
+Are you sure you want to return the item (nomor barcode buku)
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pilih ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke 5 sampai ke 7 apabila ada koleksi lain yang akan dikembalikan
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila telah selesai, maka JANGAN LUPA untuk mengklik tombol 
+\series bold
+Finisih Transaction 
+\series default
+sebagi bentuk validasi terhadap transaksi pengembalian koleksi.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\lang english
+Metode Quick Return
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Metode Quick return / pengembalian cepat dapat kita lakukan apabila terdapat
+ antrian cukup panjang di perpustakaan kita.
+ Untuk menghindari hal tersebut, kita dapat melakukan metode pengembalian
+ koleksi dengan metode ini.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adapun langkah-langkahnya adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada Menu 
+\series bold
+Circulation
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik sub menu 
+\series bold
+Quick Return
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Scan barcode buku menggunakan scanner barcode reader atau ketik menggunakan
+ keyboard.
+ Apabila kita menggunakan keyboard, maka klik pada tombol 
+\series bold
+Return.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila valid, akan terdapat informasi Judul Koleksi yang dipinjam, Nama
+ Anggota, Nomor Anggota, Tanggal Peminjaman, dan Tanggal harus kembali.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke 2 dan ke 3 apabila terdapat koleksi lain yang akan dikembalika
+n
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Untuk memastikan bahwa anggota tersebut sudah tidak memiliki pinjaman, maka
+ kita dapat mengeceknya dengan cara klik pada sub menu 
+\series bold
+Start Transaction.
+ 
+\series default
+Kemudian
+\series bold
+ 
+\series default
+Scan barcode nomor anggota menggunakan scanner barcode reader atau ketik
+ menggunakan keyboard, Apabila kita menggunakan keyboard, maka klik pada
+ tombol 
+\series bold
+Start transaction.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Jika tidak ada keterangan apapun.
+ atau kosong, maka anggota tersebut dinyatakan tidak memiliki pinjaman.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila telah selesai, maka JANGAN LUPA untuk mengklik tombol 
+\series bold
+Finisih Transaction 
+\series default
+sebagi bentuk validasi terhadap transaksi pengembalian koleksi.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Reservasi/Pemesanan
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Sebelum menerangkan fasilitas Reservasi, saya akan menjelaskan terlebih
+ dahulu prosedur layanan Reservasi yang terdapat pada aplikasi SLiMS.
+ Fasilitas Reservasi adalah fasilitas yang dapat digunakan oleh anggota
+ perpustakaan untuk memesan koleksi yang statusnya SEDANG DIPINJAM oleh
+ anggota lain.
+ Bukan terhadap koleksi yang ada di rak maupun yang sedang dalam proses
+ pembelian.
+ Reservasi pada aplikasi SLiMS saat ini hanya dapat dilakukan oleh staf
+ sirkulasi dengan meminta data dari anggota yang akan memesan koleksi yang
+ statusnya sedang dipinjam oleh anggota lain dan belum dikembalikan.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adapun langkah-langkah untuk melakukan reservasi adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Mintalah Kartu Anggota yang akan memesan koleksi yang sedang dipinjam oleh
+ anggota lain.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik Menu 
+\series bold
+Circulation
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Scan barcode nomor anggota menggunakan scanner barcode reader atau ketik
+ menggunakan keyboard.
+ Apabila kita menggunakan keyboard, maka klik pada tombol 
+\series bold
+Start transaction.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik pada tab 
+\series bold
+Reserve
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Masukkan judul/nomor barcode koleksi yang akan dipesan pada kolom kosong
+ yang berada di bawah tulisan Search Collection
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila Valid, klik pada tombol 
+\series bold
+Add Reserve
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah 5 dan 6 untuk melakukan reservasi buku lain.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila telah selesai, maka JANGAN LUPA untuk mengklik tombol 
+\series bold
+Finisih Transaction 
+\series default
+sebagi bentuk validasi terhadap transaksi reservasi koleksi.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Informasi mengenai koleksi yang telah direservasi tersebut akan muncul apabila
+ orang yang meminjam koleksi tersebut telah mengembalikan koleksi.
+ Biasanya akan muncul dialog box yang berisi informasi bahwa koleksi yang
+ dikembalikan telah direservasi oleh anggota A dengan Nomor Anggota (......).
+ Pisahkanlah koleksi tersebut, kemudian hubungilah anggota perpustakaan
+ yang telah memesan koleksi tersebut melalui e-mail,.
+ telepon dan sebagainya.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Overdue (Keterlambatan Pengembalian Koleksi)
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Apabila aplikasi SLiMS telah dioperasikan dalam layanan perpustakaan kita,
+ maka umumnya akan terdapat beberapa anggota yang telat mengembalikan koleksi.
+ Informasi secara umum mengenai keterlambatan biasanya akan dimunculkan
+ secara otomatis di aplikasi SLiMS ketika kita telah Login ke dalam aplikasi.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Contoh pesan yang muncul apabila terdapat anggota yang telat mengembalikan
+ koleksi adalah 
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+There is currently 358 library members having overdue.
+ Please check at Circulation module at Overdues section for more detail
+\begin_inset Quotes erd
+\end_inset
+
+.
+
+\shape default
+ Jangan khawatir apabila kita menemukan pesan berwarna merah pada aplikasi
+ kita setelah kita login, pesan tersebut hanyalah sebuah peringatan kepada
+ kita bahwa terdapat 358 anggota yang belum mengembalikan koleksi ke perpustakaa
+n kita.
+ Untuk melihat detail anggota yang terlambat mengembalikan koleksi silahkan
+ cek menu 
+\series default
+Circulation
+\series medium
+ dan pilih 
+\series default
+Overdued List
+\series medium
+.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Apabila kita masuk ke sub menu Overdued List, maka kita akan menemukan daftar
+ anggota yang terlambat mengembalikan koleksi dengan Informasi sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Nama Anggota (No.
+ Anggota)
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Alamat Anggota
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+E-mail Anggota
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+No.
+ telepon anggota
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Nomor Barcode Koleksi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Judul Koleksi
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Keterangan Jumlah hari terlambat
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tanggal Pinjam
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tanggal harus kembali
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Total Denda yang harus di bayar
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Master File
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Menu Master File digunakan untuk mengatur hal-hal yang berkaitan dengan
+ manajemen koleksi perpustakaan.
+ Hal-hal yang dapat kita tambahkan dalam Master File adalah sebagai berikut:
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+GMD
+\series default
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Apabila terdapat GMD baru, maka kita dapat menambahkan informasi GMD pada
+ Sub Menu ini.
+ Caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Klik Sub Menu GMD, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik Add New GMD, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian isi GMD Code dan GMD Name.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Publisher
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar nama penerbit yang telah tersimpan saat kita melakukan kegiatan
+ katalogisasi.
+ Kita dapat menambahkan nama penerbit dan juga mengedit daftar nama penerbit
+ pada sub menu Publisher.
+ Caranya adalah sebagai berikut 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik Sub menu Publisher, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik Add New Publisher, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian isi kolom kosong pada Publisher Name.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Supplier
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar nama supplier / agen tempat di mana kita membeli koleksi.
+ Untuk mengisi nama supplier baru adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik pada sub menu Supplier, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian pilih Add New Supplier, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+isi kolom-kolom berikut: Supplier Name (Nama Supplier), Address (Alamat
+ Supplier), Contact (Contact Person Supplier); Phone Number (No.
+ telepon supplier), Fax Number (No.
+ Fax Supplier), dan Account Number (Nomor Rekening Supplier).
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Author
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar nama pengarang yang telah kita isi pada saat melakukan kegiatan
+ katalogisasi.
+ Kita dapat menambahkan author pada sub menu ini, caranya adalah sebagai
+ berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik sub menu Author, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian klik Add New Author, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian isi kolom-kolom berikut: Autor Name (Nama Pengarang); Author Year
+ (Tahun Penulis), Kemudian definisikan tipe kepengarangan (personal name;
+ Organizational Body; atau Conference), Kemudian Authority File (Misalnya
+ penerjemah, editor, dan sebagainya)
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Subject
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar subyek yang telah kita isi pada saat melakukan kegiatan katalogisa
+si.
+ Kita dapat menambahkan daftar subyek pada sub menu ini.
+ Caranya adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+masuk ke sub menu Subject, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian klik Add New Subject, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian isilah subject, subject type dan authority files.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Location
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar lokasi dimana perpustakaan tersebut berada.
+ Misalnya di perpustakaan perguruan tinggi terdapat pemisahan secara geografis
+ letak perpustakaan.
+ ada Perpustakaan Fak.
+ Hukum, Perpustakaan Fak.
+ MIPA, dan seterusnya.
+ Kita dapat menambahkan letak geografis perpustakaan tersebut pada sub menu
+ Location.
+ Caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik sub menu Location, kemudian klik Add New Location, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Isi lah Location Code, dan Location Name pada setiap kolom.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Place
+\series default
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar kota terbit.
+ kita dapat menambahkan kota terbit pada sub menu ini dengan cara sebagai
+ berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik Add New Place, kemudian isilah kota terbit pada Place Name, misalnya
+ Bandung.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian klik tombol Save untuk menyimpannya.
+ 
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Item Status
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah keterangan yang bekaitan dengan status koleksi per item, status tersebut
+ misalnya tersedia, tidak dapat dipinjam, sedang diperbaiki, rusak, dan
+ seterusnya.
+ apabila kita ingin mengubah atau menambahkan status koleksi, maka langkah-langk
+ahnya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+klik tombol Add New Item Status, 
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+kemudian isi kolom Item status code, Item Status Name, dan contreng pada
+ salah satu kolom atau keduanya.
+ Keterangan: No Loan Transaction (koleksi tidak dapat dipinjam) dan Skipped
+ By Stock Take (dilewatkan dalam kegiatan stocktake)
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\lang english
+Apabila telah selesai, klik tombol Save
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Collection Type
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Sebagaimana telah saya jelaskan pada bab sebelumnya, Colletion Type adalah
+ daftar tipe koleksi yang ada di perpustakaan kita.
+ Untuk detailnya silahkan lihat bab sebelumnya 
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Label
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah keterangan berupa icon yang akan muncul di halaman OPAC, label dapat
+ kita gunakan untuk memberikan tanda misalnya koleksi multimedia, koleksi
+ baru, koleksi favorit dan sebagainya.
+ Ringkasnya label ini adalah untuk menandai danmemberikan keterangan tambahan
+ pada koleksi yang akan kita tampilkan pada OPAC
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Frequency
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+\lang english
+Adalah frekwensi terbit, misalnya 2 mingguan, harian, bulanan, 3 bulanan
+ dan seterusnya.
+ Frequency akan kita gunakan untuk pada kegiatan katalogisasi koleksi terbitan
+ berkala seperti jurnal, majalah dan sebagainya.
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+System
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Menu System digunakan untuk melakukan setting aplikasi.
+ Adapaun hal-hal yang dapat kita atur dalam Menu System adalah sebagai berikut
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+System Configuration
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Senayan Version
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Menerangkan informasi versi Senayan yang kita gunakan.
+ Contoh informasi yang terdapat di dalam Senyan Version : Senayan3-Stable15
+ dan sebaginya.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Library Name
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Kolom Library Name dapat kita ganti dengan menyesuaikan nama perpustakaan
+ kita, Misalnya Perpustakaan Kemdikbud.
+ Maka ubahlah nama perpustakaan tersebut dengan nama perpustakaan kita
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Library Subname
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Biasanya perpustakaan di sebuah lembaga menginduk pada organisasi besarnya.
+ misalnya saya bekerja di perpustakaan kemdikbud.
+ Perpustakaan tersebut di Bawah Pusat Informasi dan Humas Setjen Kemdikbud.
+ Maka saya dapat mengisi nama lembaga tersebut pada kolom Library Subname.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Public Template
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Public Template adalah tampilan web seperti warna, tata letak, huruf dan
+ sebagainya yang terdapat pada halaman OPAC.
+ Kita dapat mengubah tampilan tersebut sesuai dengan selera kita.
+ Pada aplikasi SLiMS stable15 terdapat beberapa template yang dibuat oleh
+ beberapa orang penggiat SLiMS.
+ Template public yang dapat kita pilih Igos, Blue, Default, Default-Classic,
+ Google, Green, Invetions, Lightwieght, Matoa, Terrafirma
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Admin Template
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Admin Template adalah tampilan web seperti warna, tata letak, huruf dan
+ sebagainya yang terdapat pada halaman Admin.
+ Kita dapat mengubah tampilan tersebut sesuai dengan selera kita.
+ Pada aplikasi SLiMS stable15 terdapat beberapa template yang dibuat oleh
+ beberapa orang penggiat SLiMS.
+ Admin Template Default, Default-Classic, Green, Igos, matoa.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Default App.
+ Language
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pada Default App.
+ language, kita dapat mengganti bahasa menu-menu yang terdapat pada aplikasi
+ SLiMS.
+ Secara default bahasa yang digunakan dalam aplikasi SLiMS adalah bahasa
+ Inggris, namun apabila kita ingin mengganti bahasa tersebut ke dalam bahaasa
+ lain, misalnya bahasa Indonesia, maka kita ubah dengan cara menklik tombol
+ tanda panah ke bawah.
+ Saat ini terdapat berbagai macam bahasa yang dapat kita pilih: Bahasa Arab,
+ Bengali, Jerman, Brazilian Portugis, Thailand, dan Spanyol.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Number of Collections To Show In OPAC Result List
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Dalam bahasa Indonesianya adalah Jumlah koleksi hasil pencarian yang ditampilkan
+ di dalam OPAC.
+ Fungsi dari pengaturan ini adalah membatasi jumlah hasil penelusaran koleksi
+ per page.
+ Secara default, SLiMS menset 10, artinya apabila kita melakukan penelusaran
+ pada OPAC, dan ditemukan 20 judul koleksi, maka setiap page akan di pecah
+ 10 judul, dan 10 judul lainnya akan berada pada page kedua.
+ Pengaturan hasil penelusuran dilakukan agar user tidak melakukan scrolling
+ yang cukup panjang.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Show Promoted Titles at Homepage
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Apabila kita ingin Menampilkan Judul Terpilih di Homepage, maka kita dapat
+ mencontreng Yes pada kolom box kecil
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Quick Return
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pengembalian Cepat.
+ Ada dua opsi yaitu Enable dan Disable.
+ Apabila kita memilih opsi Enable, maka Fasilitas Pengembalian Cepat pada
+ Modul sirkulasi dapat kita gunakan.
+ Namun apabila kita memilih Opsi Disable, maka fasilitas Quick Return tidak
+ aktif atau tidak dapat dijalankan.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Print Circulation Receipt
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Cetak Bukti Sirkulasi adalah bukti berupa print out ketika ada transaksi
+ peminjaman dan pengembalian koleksi.
+ Tujuan adanya fasilitas ini adalah sebagai bukti bagi peminjam dan petugas
+ sirkulasi bahwa telah terjadi transaksi peminjaman dan pengembalian.
+ Ini bisa dianalogikan layaknya mesin ATM, dimana saat kita menarik atau
+ menyetor uang, akan ada receipt (bukti) stuk penarikan atau penyetoran
+ uang.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pada Print Circulation Receipt, terdapat dua opsi yaitu Print dan Don't
+ Print, apabila kita memilih Print, maka setiap kali transaksi akan muncul
+ receipt untuk dicetak.
+ namun apabila kita memilih Don't Print, maka setiap kali adanya transaksi
+ tidak diperlukan adanya receipt (struk transaksi peminjaman dan pengembalian)
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Loan and Due Date manual Change
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Perubahan Tanggal Peminjaman dan Jatuh Tempo secara manual.
+ Fungsi dari fasilitas ini adalah agar kita dapat mengubah tanggal peminjaman
+ dan pengembalian secara manual.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Loan Limit Override
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Mengabaikan batas pinjam, maksunya adalah apabila kita Memilih Enable, maka
+ bila ada anggota yang kelebihan item peminjaman, dapat dipaksa untuk tetap
+ dipinjam.
+ Namun apabila kita memilih Disable, maka apabila anggota telah melewati
+ batas jumlah peminjaman, tidak dapat dipaksakan, artinya sistem akan menolak
+ apabila terdapat kelebihan jumlah item peminjaman.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+OPAC XML Detail
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Dengan XML memungkin sesama pengguna SLiMS mengcopy catalog melalui layanan
+ P2P.
+ Oleh karena itu, apabila kita ingin berbagi katalog dalam arti katalog
+ kita diijinkan untuk dicopy oleh perpustakaan lain yang menggunakan aplikasi
+ SLiMS, kita dapat memilih opsi Enable.
+ Namun apabila kita tidak menginginkan hal yang demikian, kita dapat menonaktifk
+annya dengan memilih opsi Disable.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+OPAC XML Result
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Hasil OPAC dalam XML.
+ Sama seperti halnya OPAC XML Detail, jika kita mengaktifkan dengan memilih
+ Enable, maka hasil XML tersebut dapat dicopy oleh perpustakaan lain
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Allow OPAC File Download
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Allow OPAC File Download atau dalam bahasa Indonesia Unduh file hasil pencarian
+ OPAC, apabila kita memilih opsi Allow (diijinkan) maka file attachment
+ yang kita masukkan pada saat proses katalogisasi dapat diunduh pada halaman
+ OPAC.
+ Namun agar fasilitas ini dapat bekerja, kita juga harus melakukan konfigurasi
+ pada file sysconfig.inc.php yang terdapat pada source.
+ Caranya buka file sysconfig.inc.php menggunakan editor (notepad, wordpad,
+ notepad++, vim, dan sebagaimnya) kemudian cari tulisan $sysconf['allow_file_dow
+nload'] = true; dan $sysconf['allow_pdf_download'] = true; Ubahlah tulisan
+ true menjadi false, yang hasilnya menjadi $sysconf['allow_file_download']
+ = false; dan $sysconf['allow_pdf_download'] = false; Hasilnya file attachment
+ tidak dapat diunduh 
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Session Login Timeout
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Timeout Sesi Login berfungsi untuk mengatur session agar aplikasi tersebut
+ dapat melakukan log out secara otomatis apabila kita biarkan dalam kondisi
+ sedang login.
+ Angka 7200 adalah angka dalam second.
+ kita dapat menambahkan atau mengurangi nilai tersebut sesuai dengan kebutuhan
+ kita.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Barcode Encoding
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Jenis Barkod, adalah jenis-jenis barcode yang dapat kita ubah sesuai dengan
+ kebutuhan kita.
+ terdapat berbagai macam jenis barkod yang ada di SLiMS yaitu: 12-Digit-EAN,
+ ISBN Number (Still EAN 13), Code 39, Code 128, Code 128 (compact form for
+ digits), Code 128 (full printable for ascii), interleave 2 of 5, Raw code
+ 128, Codabar, MSI, Plesseys, dan Code 93.
+ Silahkan pilih sesuai dengan kebutuhan anda.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Content
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS memungkin kita untuk membuat Content tambahan layaknya CMS,
+ Content ini dapat kita tambahkan sesuai dengan kebutuhan masing-masing
+ perpustakaan.
+ Misalnya Content tentang buku baru, info/berita tentang perpustakaan dan
+ sebagainya.
+ Content ini akan tampil pada halaman OPAC.
+ Untuk menambahkan content baru pada aplikasi SLiMS, klik pada Add New Content,
+ kemudian tuliskan nama kontennya pada Content Title, Kemudian sesuaikan
+ path dimana directory content tersebut dibuat pada Path, selanjutnya buatlah
+ tulisan pada form konten tersebut sesuai dengan kebutuhan.
+ Tekan tombol Save apabila telah selesai.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Biblio Indexes
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Berfungsi untuk melakukan indeksing.
+ Jika anda telah memiliki data ratusan ribu record data koleksi, maka dengan
+ menggunakan fasilitas ini, hasil penelusurannya akan lebih sangat cepat.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Modules
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS memungkinkan kita untuk menambah Module atau menu tambahan.
+ Module/menu tambahan ini dapat kita buat sendiri sesuai dengan kebutuhan
+ kita.
+ Untuk membuat Module baru, klik pada 
+\series default
+Add New Modules
+\series medium
+, kemudian isilah Nama Modulenya pada kolom 
+\series default
+Module Name
+\series medium
+, kemudian Arahkan Pathnya dimana Module itu berada pada kolom 
+\series default
+Module Path
+\series medium
+, kemudian berikan deskripsi module tersebut pada 
+\series default
+Module Description
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+System Users
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Berfungsi untuk membuat akun username dan password, serta pembagian kelompok
+ bagi setiap pengguna aplikasi
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+User Group
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Berfungsi untuk membuat kelompok, serta menentukan priviledge / hak akses
+ masing-masing kelompok terhadap modul yang tersededia pada SLiMS.
+ 
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Holiday Setting
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Pengaturan hari libur ditujukan agar tidak adanya miskomunikasi antara peminjam
+ dengan staf bagian sirkulasi.
+ hal ini berkaitan dengan jumlah hari peminjaman.
+ Kita dapat mengatur hari libur perpustakaan atau hari libur-libur nasional
+ sehingga ketika ada peminjaman yang harus dikembalikan pada hari libur,
+ dia akan mundur di hari yang dianggap tidak libur oleh sistem.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adapun cara pengaturan hari liburan adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tentukan hari libur mingguan terlebih dahulu, misalnya hari Sabtu dan Minggu
+ layanan perpustakaan tutup, maka contrenglah pada hari Sabtu dan Minggu.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila terdapat hari libur nasional dan hari libur lainnya, maka klik pada
+ 
+\series bold
+Add Special holiday/Tambah Hari Libur Khusus Baru.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pada Kolom 
+\series bold
+Holiday Date Start, 
+\series default
+isilah tanggal pertama libur misalnya libur 25 desember (hari Natal) dan
+ 26 Desember (cuti bersama hari Natal), maka pada 
+\series bold
+Holiday Date Start 
+\series default
+kita mingisi 25 Desember
+\series bold
+, 
+\series default
+dan
+\series bold
+ Holiday Date End 
+\series default
+kita isi 26 Desember
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isilah 
+\series bold
+Holiday Description 
+\series default
+dengan keterangan hari liburnya, Misalnya Hari Raya Idul Fitri, Cuti Bersama
+ Idul Fitri
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila telah selesai klik tombol 
+\series bold
+Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ulangi langkah ke 3 sampai ke 5 untuk menambah hari libur lainnya.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Barcode Generator
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Fasilitas ini digunakan untuk membuat barcode.
+ 
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+System Log
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Sistem log adalah log atau catatan pengguna aplikasi, semua orang yang melakukan
+ kegiatan terhadap aplikasi SLiMS akan tercatat oleh sistem.
+ Tujuan dari adanya log / catatan pengguna aplikasi adalah sebagai alat
+ bukti bahwa sesorang telah melakukan pekerjaan tertentu menggunakan aplikasi
+ SLiMS.
+ Log atau catatan pada SLiMS berisi informasi waktu, tanggal, tahun, nama
+ user, dan hal/pekerjaan yang dilakukan oleh si user.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\lang english
+Database Backup
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Backup atau menyalin pangkalan data adalah hal yang harus dilakukan bagi
+ setiap perpustakaan yang bekerja dengan sistem elektronik.
+ tujuannya adalah untuk menghindari hal-hal yang tidak diinginkan, misalnya
+ kehilngan data, sistem aplikasi rusak, dan sebagainya.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS menyediakan fasilitas Database Backup yang dapat digunakan
+ oleh siapan, cukup dengan mengklik Database backup, kemudian tekan tombol
+ Start New Backup, maka semua data yang ada di aplikasi SLiMS akan terbackup.
+ Pada sistem operasi linux (Ubuntu 10.04), file backup tersimpan di path
+ /var/www/libsenayan/files/backup/backup_20111003_160832.sql.tar.gz, sedangkan
+ pada sistem operasi Windows, file backup biasanya tersimpan di psenayan/apache/
+htdocs/senayan3-stable15/files/backup/backup_20111003_160832.sql.
+ Kemudian setelah terbackup, copy atau salinlah file .sql atau sql.tar.gz tersebut
+ ke tempat lain.
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Stocktake / Stock Opname
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Dengan banyaknya aktivitas penggunaan dan peminjaman koleksi dalam periode
+ tertentu, sebagaimana terjadi di perpustakaan lainnya, tak dapat dielakkan
+ akan terdapat sejumlah koleksi yang mungkin saja tidak ada di rak perpustakaan
+ kita.
+ Untuk itu dibutuhkan pendataan kembali koleksi untuk mendapatkan data dan
+ informasi koleksi yang sebenarnya dan mutakhir.
+ Tujuan dari stocktake adalah untuk membandingkan jumlah koleksi yang tercatat
+ di database perpustakaan dengan jumlah koleksi yang ada secara fisik, mengetahu
+i tingkat kehilangan pada koleksi, menghasilkan data dan informasi koleksi
+ yang sebenarnya dan mutakhir.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Prinsip Umum Stocktake/Stockopname pada SLiMS
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Berikut adalah prinsip umum Stocktake/Stockopname pada SLiMS
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Stocktake/Stockopname dilakukan pada koleksi yang statusnya Available/Tersedia,
+ bukan terhadap koleksi yang sedang dipinjam
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Stocktake/Stockopname dilakukan pada setiap item/eksemplar bukan pada judul
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Pada saat dilakukan proses inisialisasi dalam kegiatan stocktake/stockopname,
+ koleksi yang statusnya tersedia/available akan dianggap hilang sementara
+ oleh sistem, oleh karena itu setiap staf yang ditugaskan untuk melakukan
+ kegiatan stocktake/stockopname harus melakukan pemindaian nomor barkod
+ setiap item/ekspemlar koleksi 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Item/eksemplar yang statusnya tersedia/available dan tidak dipindai akan
+ dianggap hilang.
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Pada saat kegiatan Stocktake/Stockopname berkahir, aplikasi SLiMS akan memberika
+n laporan berupa koleksi yang tersedia, koleksi yang hilang (karena tidak
+ dipindai), serta koleksi yang sedang dipinjam.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Langkah-langkah Memulai Stocktake/Stockopname
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Siapkan peralatan berupa komputer, alat pemindai barkod (barcode reader),
+ dan peralatan penunjang lainnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Penulis menyarankan agar perpustakaan ditutup untuk sementara waktu serta
+ tidak melakukan transaksi peminjaman dan pengembalian selama kegiatan Stocktake
+/Stockopname berlangsung
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik 
+\series bold
+Initialize
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Isi pada kolom Stock Take Name misalnya 
+\series bold
+stocktake 2011 
+\series default
+atau 
+\series bold
+stocktake bulan juni 2011
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+GMD
+\series default
+ pilih ALL
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Collection Type 
+\series default
+pilih ALL
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Shelf location
+\series default
+ biarkan kosong
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Classification 
+\series default
+biarkan kosong
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian klik 
+\series bold
+Initialize Stock Take
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Akan muncul dialog box, pilih Ok
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selanjutnya akan muncul sub menu pada bagian kiri sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Stock Take History, 
+\series default
+Sejarah Stock Take
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Current Stock Take, 
+\series default
+pada sub menu inilah kita memindai atau menginput nomor barkod setiap item
+ koleksi yang ada di rak hingga proses stocktake selesai.
+ Pada saat menggunakan sub menu ini, penulis menyarankan untuk memindahkan
+ tanda titik hitam dari 
+\series bold
+All User
+\series default
+ ke 
+\series bold
+Current User Only
+\series default
+, yang tujuannya agar kita fokus terhadap koleksi yang sedang kita pindai,
+ hal ini berlaku bagi perpustakaan yang membagi kelompok dalam kegiatan
+ stocktake.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pada saat kode barcode dimasukkan atau dipindai pada kolom Item Code, maka
+ akan muncul informasi berupa nomor barcode, judul, call number, collection
+ type, classification, dan status.
+ Perhatikan pada kolom status, jika koleksi yang kita pindai nomor barkodnya
+ ada di dalam database, maka ia akan memunculkan status 
+\series bold
+Exists
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Stock Take Report, 
+\series default
+adalah laporan sementara kegiatan stocktake.
+ Kita dapat melihat beberapa informasi berupa total eksemplar koleksi yang
+ distocktake, total koleksi yang hilang sementara, total koleksi yang sedang
+ dipinjam, grafik merah dan biru dalam prosentase terkait dengan pekerjaan
+ stocktake, orang-orang yang ikut dalam kegiatan stocktake, tanggal dimulainya
+ stocktake, tanggal berakhirnya stocktake, daftar koleksi hilang, tersedia,
+ dan yang sedang dipinjam berdasarkan nomor class, serta daftar koleksi
+ hilang, tersedia, dan yang sedang dipinjam berdasarkan tipe koleksi.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Finish Stock Take, 
+\series default
+sub menu ini diklik apabila semua koleksi yang ada di rak telah dipindai/diinput
+ seluruhnya.
+ 
+\series bold
+Jangan mengklik menu ini
+\series default
+ apabila kegiatan stocktake 
+\series bold
+belum selesai dilakukan
+\series default
+.
+ Bila pekerjaan stocktake memakan waktu misalnya 1 minggu, dan hari pertama
+ baru meyelesaikan sebagian koleksi, maka anda tidak perlu mengklik sub
+ menu ini.
+ biarkan saja dan log out sebagaimana biasa seperti anda telah bekerja menggunak
+an SLiMS.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila kita benar-benar yakin telah menyelesaikan kegiatan stocktake, maka
+ klik pada sub menu 
+\series bold
+Finish Stock Take, 
+\series default
+kemudian berikan tanda contreng pada kolom 
+\series bold
+Purge Lost Item 
+\series default
+apabila anda ingin menghapus eksemplar/item koleksi yang hilang (tidak ada
+ di rak).
+ Jika tidak ingin menghapus, jangan memberikan tanda contreng.
+ Kemudian untuk memastikan proses stocktake tekan tombol 
+\series bold
+Finish Stock Take
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Current Lost Item
+\series default
+, adalah daftar koleksi yang hilang.
+ Informasi yang dapat kita peroleh adalah nomor barkod, judul, GMD, Nomor
+ Class, Tipe Koleksi dan Call Number.
+ Kita dapat mecetak daftar koleksi hilang ini sebagai laporan dengan cara
+ mengklik tulisan 
+\series bold
+Print Current Page
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Stock Take Log
+\series default
+, adalah catatan atau log selama dilakukannya proses stocktake
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Resynchronize
+\series default
+, Apabila kita melakukan perubahan data bibliografi/item data pada saat
+ dilakukannya kegiatan stocktake, maka gunakanlah fasilitas Resynchronize
+ untuk mengupdate perubahan tersebut.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+Upload list
+\series default
+, Digunakan apabila kita menggunakan metode pemindaian barkod menggunakan
+ notepad atau file editor lain pada saat proses stocktake.
+ kemudian hasilnya kita simpan dalam bentuk file *.txt, file ini kemudian
+ dapat kita upload dengan cara klik sub menu Upload list, kemudian tekan
+ tombol browse, lalu cari file txt tadi, kemudian klik Upload File.
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Reporting
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Collection Statistic
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah ringkasan statistik koleksi yang kita miliki.
+ Informasi yang disajikan adalah sebagai berikut
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Judul (termasuk judul yang belum ada nomor barkodnya)
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Judul yang telah ada nomor barkodenya
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total item/eksemplar
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total item/eksemplar yang dipinjam
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total item/eksemplar Dalam Koleksi
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Judul Menurut GMD
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total item/eksemplar Menurut Tipe Koleksi
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+10 Judul Terpopuler
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Loan Report
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Laporan Peminjaman, memuat informasi sebagai berikut
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Peminjaman
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Judul Yang dipinjam Menurut GMD
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Item/Eksemplar yang dipinjam Munurt Tipe Koleksi
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Trasaksi Peminjaman
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Rata-rata Transaksi Per hari
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Transaksi tertinggi dalam sehari
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Anggota yang meminjam
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Anggota yang belum pernah meminjam
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Peminjaman Terlambat
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Membership Report
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Statistik keanggotaan, memuat informasi sebagai berikut
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Anggota Terdaftar
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Anggota yang Masih Berlaku
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Jumlah Anggota Menurut tipe keanggotaan
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Total Anggota yang Kedaluarsa
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+10 Anggota paling Aktif dalam Meminjam
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Custom Recapitulation
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Rekapitulasi Jumlah Koleksi dapat kita lihat berdasarkan
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Klasifikasi
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+GMD
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Tipe Koleksi
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Bahasa Koleksi
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Title List
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah daftar judul koleksi yang telah kita input ke dalam Bibliografi.
+ Pada Title List, kita dapat mendapatkan informasi berupa Judul, Kopi/Eksemplar,
+ Tempat Terbit, Penerbit ISBN, dan Nomor Panggil.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Kita juga dapat melakukan filterisasi laporan tersebut berdasarkan judul/isbn,
+ Pengarang, Klasifikasi, GMD, Tipe Koleksi, Bahasa, Lokasi dan Rekod per
+ Halaman untuk membuat laporan yang lebih spesifik.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Items Title List
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Daftar item/kopi/eksemplar adalah laporan koleksi berdasarkan eksemplarnya.
+ Pada laporan ini, kita dapat melihat informasi berupa kode koleksi, judul,
+ tipe koleksi, status eksemplar, dan Nomor Panggil.
+ Kita dapat melakukan filterisasi laporan ini berdasarkan kode koleksi,
+ klasifikasi, GMD, tipe koleksi, status eksempar, lokasi, dan rekod per
+ halaman untuk membuat laporan yang lebih spesifik.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Item Usage Statistics
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah laporan Statistik penggunaan koleksi.
+ Informasi laporan yang terdapat dalam laporan statistik ini adalah penggunaan
+ koleksi perbulan.
+ Kita dapat melihat apakah koleksi tersebut sering dipinjam atau tidak dari
+ sini.
+ Informasi yang ada di dalam laporan ini adalah Kode koleksi, judul, serta
+ frekewnsi peminjaman koleksi per bulan
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Loans by Classification
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Peminjaman Berdasarkan Kelas.
+ Laporan ini memuat rekapitulasi peminjaman koleksi berdasarkan notasi klasifika
+si yang direkap per bulan.
+ Untuk membuat laporan yang spesifik, kita dapat menerapkan filterisasi
+ terhadap laporan ini berdasarkan Klasifikasi, Tipe Koleksi dan Tahun
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Member List
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Laporan daftar anggota yang berisi nomor anggota, nama anggota, dan tipe
+ anggota.
+ Kita dapat melakukan filterisasi dalam membuat laporan anggota berdasarkan
+ tipe anggota, ID/nama anggota, jenis kelamin, Alamat, Tanggal pendaftaran
+ sejak, tanggal pendaftaran hingga, serta rekod per halaman.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Loan List by Member
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Daftar peminjaman Anggota, adalah laporan mengenai data peminjaman koleksi.
+ Informasi yang dapat kita dapatkan dari laporan ini adalah Nama Anggota,
+ Nomor Anggota, email, nomor telepon, nomor barkod koleksi, judul.
+ tanggal pinjam dan tanggal harus kembali.
+ Kita dapat melakukan filterisasi untuk membuat laporan yang lebih spesifik
+ dengan melakukan filterisasi berdasarkan ID/Nama Anggota, Tanggal Pinjam
+ Sejak, Tanggal pinjam hingga, dan rekod per halaman.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Loan History
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Sejarah peminjaman.
+ adalah laporan catatan history peminjaman, dimana kita dapat melihat sejarah
+ peminjaman anggota.
+ pada laporan ini kita dapat memperoleh laporan berupa Nomor Anggota, Nama
+ Anggota, Kode Koleksi, Judul, tanggal pinjam, tanggal harus kembali, serta
+ status pinjaman.
+ Untuk membuat laporan yang spesifik, kita dapat melakukan filterisasi berdasark
+an ID/Nomor Anggota, Judul, Kode Koleksi, tanggal pinjam sejak, tanggal
+ pinjam hingga, status peminjaman, dan rekod per halaman.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Due Date Warning
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Peringatan Jatuh tempo adalah laporan daftar anggota yang masa peminjamannya
+ akan segera berakhir.
+ Pada laporan ini kita dapat melihat informasi berupa Nama Anggota, No.
+ Anggota, email, No.
+ telepon, Alamat, Kode Koleksi yang dipinjam, Judul koleksi, tanggal pinjam
+ dan tanggal harus kembali.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Overdued List
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Adalah laporan daftar anggota yang terlambat mengembalikan koleksi (telah
+ jatuh tempo).
+ Pada laporan ini kita dapat melihat informasi berupa Nama Anggota, No.
+ Anggota, email, No.
+ telepon, Alamat, Kode Koleksi yang dipinjam, Judul koleksi, tanggal pinjam
+ dan tanggal harus kembali.
+ Filterisasi dapat kita lakukan untuk membuat laporan berdasarkan tanggal
+ pinjam sejak dan tanggal pinjam hingga.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Staff Activity
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aktivitas staf yang bekerja menggunakan aplikasi SLiMS.
+ Kita dapat melihat laporan apa yang telah dilakukan staf selama bekerja,
+ berapa banyak ia melakukan pekerjaan pengolahan koleksi, pengolahan data
+ anggota dan sirkulasi.
+ Informasi yang dapat kita lihat dari laporan ini adalah, Nama lengkap staf,
+ login staff, jumalah entri data bibliografi, jumlah entri data eksemplar,
+ jumlah entry data anggota, serta jumlah kegiatan sirkulasi yang dilakukan.
+ Filterisasi dapat dilakukan dengan berdasarkan tahun aktivitas.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Visitor Statistic
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Statistik pengunjung.
+ Pada laporan ini kita dapat memperoleh laporan pengunjung perpustakaan
+ berdasarkan tipe anggota, dan jumlah pengunjung berdasarkan bulan.
+ filterisasi dapat kita lakukan berdasarkan tahun kunjungan.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Visitor Statistic (by Day)
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Statistik pengunjung perhari.
+ Adalah laporan rekapitulasi kunjungan ke perpustakaan per hari.
+ Pada laporan ini, kita akan melihat informasi berupa hari, tanggal, tahun,
+ serta angka merah yang menandakan jumlah pengunjung per hari.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Visitor List
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Daftar pengunjung adalah daftar detail nama pengunjung perpustakaan.
+ Informasi yang dapat kita peroleh dari laporan ini adalah ID Anggota (Non-Membe
+r, apabila ia bukan anggota), nama anggota/pengunjung, tipe keanggotaan,
+ institusi, serta tanggal, bulan, tahun, waktu, menit, dan detik ia datang
+ ke perpustakaan.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Fines Report
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Laporan denda adalah laporan denda perhari.
+ Kita dapat melakukan filterisasi untuk mendapatkan laporan denda berdasrkan
+ tahun dan bulan.
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Mengaktifkan Visitor Counter
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Aplikasi SLiMS selain digunakan untuk keperluan manajemen pengolahan koleksi,
+ peminjaman dan hal lainnya yang telah diuraikan pada bab bab sebelumnya,
+ juga dapat digunakan sebagai 
+\begin_inset Quotes eld
+\end_inset
+
+buku
+\begin_inset Quotes erd
+\end_inset
+
+ tamu pengunjung elektronik, sehingga setiap pengunjung yang datang ke perpustak
+aan kita, tidak perlu lagi mengisi buku tamu manual, mereka cukup mengetikkan
+ nama mereka atau memasukkan nomor anggota perpustakaan mereka ke dalam
+ komputer yang telah disiapkan sebagai buku tamu.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\lang english
+Untuk mengaktifkan modul ini caranya adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pastikan ditempat kita aplikasi SLiMS digunakan dalam jaringan
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Siapkan 1 PC komputer untuk dijadikan sebagai visitor counter
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buka source code SLiMS dimana SLiMS diinstall
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+cari dan buka file 
+\series bold
+visitor.inc.php
+\series default
+ menggunakan editor favorit anda.
+ file 
+\series bold
+visitor.inc.php
+\series default
+ terletak di dalam path 
+\series bold
+senayan3-stable15/lib/contents/visitor.inc.php
+\series default
+, pada contoh ini saya menggunakan Ubuntu, dan source SLiMS terdapat di
+ path /var/www/senayan3-stable15/lib/contents/visitor.inc.php.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila anda menggunakan portable senayan (psenayan) di Windows, maka letaknya
+ filenya ada di dalam path psenayan/apache/htdocs/senayan3-stable15/lib/contents
+/visitor.inc.php
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Cari tulisan $allowed_counter_ip = array('127.0.0.1'); 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian ubah menjadi $allowed_counter_ip = array('nomor ip komputer yang
+ akan dijadikan buku tamu'); 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Simpan, 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buku browser dan ketikkan alamat ini http://nomor ip server dimana senayan
+ diinstal/senayan3-stable15/index.php?p=visitor -- Contoh di tempat saya
+ adalah http://10.0.0.100/libsenayan/index.php?p=visitor
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Tampilan visitor counter akan muncul
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+cara menggunakannya, cukup masukkan nomor anggota (apabila ia telah menjadi
+ anggota), atau nama dan instansi asal (jika ia bukan anggota).
+ lalu tekan tombol 
+\series bold
+Add/tambah.
+ 
+\end_layout
+
+\begin_layout Chapter
+
+\family sans
+Membangun Katalog Bersama (Union Catalogue)
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Perpustakaan ada kalanya membangun katalog bersama yang tujuannya adalah
+ untuk berbagi data katalog, sehingga masyarakat cukup mengakses ke satu
+ katalog online, dapat menemukan informasi / keberadaan koleksi di perpustakaan
+ lain.
+ Biasanya katalog bersama dibangun oleh perpustakaan yang memiliki kesamaan
+ subyek, atau dapat juga karena kesamaan organisasi.
+ contohnya di perpustakaan perguruan tinggi memiliki berbagai macam perpustakaan
+ di masing-masing fakultas atau jurusan.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Agar masyarakat tidak bingung untuk menghapal alamat katalog online di internet,
+ maka katalog bersama dapat menjadi solusi.
+ Dimana dengan mengakases 1 pintu, masyarakat dapat menemukan lokasi-lokasi
+ sebuah koleksi di berbagai macam perpustakaan lain yang tergabung dalam
+ katalog bersama.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Aplikasi SLiMS telah menyediakan modul untuk membangun katalog bersama.
+ Pada aplikasi SLiMS modul ini lebih populer dengan nama UCS (Union Catalogue
+ Service).
+ Untuk mengaktifkan layanan ini, ada beberapa hal yang harus kita lakukan.
+ Berikut adalah langkah-langkah untuk mengaktifkan layanan ini
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Siapkan PC / Server yang akan kita jadikan sebagai server UCS 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pastikan PC tersebut telah terinstall apache, mysql, dan php, termasuk phpmyadmi
+n 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Download source code UCS dari github https://github.com/slims/ucs-2.0/zipball/mast
+er 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Letakkan file downloatan tersebut di root PC kita 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian lakukan ekstraksi file tersebut dengan winrar, winzip, atau 7zip
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Hasil ektraksi akan menghasilkan folder.
+ Rename folder tersebut deangan nama misalnya UCS 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buat database dengan nama misalnya 
+\series bold
+ucsdb
+\series default
+ menggunakan perintah mysql atau phpmyadmin 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selanjutnya adalah memasukkan file sql ucs ke dalam database yang sudah
+ kita buat tadi.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Menggunakan phpmyadmin, klik import, browse, kemudian cari file 
+\series bold
+ucs.sql
+\series default
+ yang terletak di dalam folder /ucs/install/ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik GO 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buat privildege (hak akses) ke database ucs menggunakan phpmyadmin atau
+ dari console 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Lakukan konfigurasi, yaitu menyamakan nama database, username, dan password
+ ke database kita.
+ Caranya buka folder ucs, kemudian cari file 
+\series bold
+ucsysconfig.inc.php
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Cari tulisan ini /* DATABASE CONNECTION config */ // database constant //
+ change below setting according to your database configuration define('DB_HOST',
+ 'localhost'); define('DB_PORT', '3306'); define('DB_NAME', 'ucsdb'); define('DB
+_USERNAME', 'ucsuser'); define('DB_PASSWORD', 'password_ucsuser');
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Sesuaikan nama database, username, dan password.
+ lalu Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Insatalasi UCS selesai
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Tahap selanjutnya adalah mendaftarkan node-node (client-client yang akan
+ bergabung atau berhak mengirimkan datanya ke ke UCS yang sudah kita siapkan
+ di atas) Caranya adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Buka file ucserver.inc.php dengan editor favorit kita 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Cari tulisan // nodes configuration $sysconf['node']['slims-node'] = array(
+ 'id' => 'slims-node', // node id (must be UNIQUE, lowercase and not containing
+ any spaces!) 'name' => 'SLiMS Library', // node name 'password' => '2325f677e21
+c1613909c953eb03c57352259cc5d', // this hash created with SHA1 algoritm
+ 'baseurl' => 'http://localhost/s3st15_matoa', // node base URL 'ip' =>
+ '' // IP address of node );
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Disini kita akan mengisi beberap hal yaitu 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+(Wajib diisi) node
+\series default
+ $sysconf['node']['slims-node'] Isikan nama node klien misalnya Fakultas
+ Hukum ingin bergabung ke UCS, kita buat saja namanya fh-node jadi isinya
+ $sysconf['node']['fh-node']
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+(Wajib diisi) id
+\series default
+ 'id' => 'slims-node', Ganti tulisan slims-node, sesuai dengan nama yang
+ di atas.
+ (jangan sampai salah penulisannya dengan yang kita isi pada nomor 1
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+(Wajib diisi) name
+\series default
+ 'name' => 'SLiMS Library', Kalau nama SLiMS Library bisa kita ganti apa
+ saja misalnya Perpustakaan Fakultas Hukum
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+(Wajib diisi) Password
+\series default
+ 'password' => '2325f677e21c1613909c953eb03c57352259cc5d', Password juga
+ terserah kita misalnya 12345
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+(Tidak wajib)
+\series default
+ baseurl' => 'http://localhost/s3st15_matoa', baseurl diisi jika Perpustakaan
+ node memiliki katalog online
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\lang english
+(Tidak wajib)
+\series default
+ 'ip' => '' IP yang dimaksud disini adalah ip local komputer node.
+ IP disini adalah untuk membatasi node / client dalam mengirimkan data katalogny
+a ke UCS.
+ jadi kalau kita mendifinisikan ip local node pada kolom ini, maka hanya
+ node bernomor ip tertentu yang dapat mengirimkan katalognya ke server UCS.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Apabila ada node lain yang ingin bergabung ke UCS kita, maka tinggal di
+ copy saya script diatas ke bawahnya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+yang perlu diingat adalah 
+\series bold
+nama node 
+\series default
+dan 
+\series bold
+id node 
+\series default
+tidak boleh sama antara satu dengan yang lain.
+ Misalnya fh-node sudah dipakai, maka dia tidak bisa dipakai lagi.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Setelah mendaftarkan node-node tersebut ke server kita, maka langkah selanjutnya
+ adalah melakukan konfigurasi pada setiap node (client) yang akan bergabung
+ ke UCS kita, intinya sih biar si client dapat berkomunikasi dengan server
+ ucs kita.
+ caranya
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kunjungin semua node (client).
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pastikan di node sudah terinstall senayan (sudah pasti).
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian buka folder source senayannya.
+ cari file 
+\series bold
+ucnode.inc.php
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Jika anda menggunakan portable senayan (psenayan) di windows, file tersebut
+ terletak di dalam folder /psenayan/htdocs/senayan-versi-berapa/
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pada file 
+\series bold
+ucnode.inc.php
+\series default
+, carilah tulisan ini $ucs['serveraddr'] = 'http://127.0.0.1/senayan3-stable14/ucs'
+; // UCS server address.
+ NO TRAILING SLASH! for local testing on Windows machine don't use localhost,
+ use 127.0.0.1 instead $node['id'] = 'slims-node'; // node ID $node['password']
+ = '2325f677e21c1613909c953eb03c57352259cc5d'; // default is s0beautifulday
+ $node['name'] = 'SLiMS Library'; // node name.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Gantilah tulisan tersebut sebagai berikut.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+$ucs['serveraddr'] = 'http://127.0.0.1/senayan3-stable14/ucs'; // UCS server
+ address.
+ NO TRAILING SLASH! for local testing on Windows machine don't use localhost,
+ use 127.0.0.1 instead.
+ disini kita memasukkan alamat url ucs kita misalnya http://perpustakaan.kemdikna
+s.go.id/ucs.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+$node['id'] = 'slims-node'; // node ID Disini kita isi nama node yang sesuai
+ dengan yang sudah kita daftarkan di ucs server sebelumnya.
+ contohnya tadi balaibahasabali-node, maka tulis disini balaibahasabali-node.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+$node['password'] = '2325f677e21c1613909c953eb03c57352259cc5d'; // default
+ is s0beautifulday Disini juga kita masukkan password sesuai dengan yang
+ kita isi pada ucs server sebelumnya.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+$node['name'] = 'SLiMS Library'; // node name Disini juga kita masukkan
+ nama perpustakaan sesuai dengan yang kita isi pada ucs server sebelumnya.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian, kita buka file sysconfig.inc.php, cari tulisan ini /** * UCS global
+ settings */ $sysconf['ucs']['enable'] = false; // auto delete same record
+ on UCS? $sysconf['ucs']['auto_delete'] = true; // auto insert new record
+ to UCS? $sysconf['ucs']['auto_insert'] = false;
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Ubahlah tulisan 
+\series bold
+false 
+\series default
+menjadi 
+\series bold
+true
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Kemudian Save
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Selesai
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Untuk mengirimkan data bibliografi dari node (klient) ke server ucs, cara
+ kerjanya di aplikasi SLiMS adalah sebagai berikut
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Masuk ke modul bibliografi.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Pilih dengan cara mengklik pada kotak kecil disebelah judul.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Klik tombol 
+\series bold
+Upload Selected Bibliographic data to Union Catalog Server* 
+\series default
+yang ada dibagian atas kolom pencarian.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Bila berhasil maka akan ada pesan bahwa data terlah terkirim.
+\end_layout
+
+\end_body
+\end_document
